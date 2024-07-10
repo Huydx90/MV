@@ -1,0 +1,4025 @@
+{
+  "MX_SEVT_MobileMain_230823_A003": {
+    "acsApiBaseUrl":"http://107.114.52.252/",
+    "acsWebSocketUrl":"ws://107.114.52.252:81/amrvendor",
+	"siteCode":"VN02",
+    "areaCode":"A_FL2",
+    "chargerNodeId": "C2.2",
+    "standbyNodeId": "R.2",
+    "locateZero":{
+      "name":"Charge 02",
+	  "nodeId": "C0.2",
+      "x": 147.79,
+      "y": 70.03,
+      "ori": 180
+    },
+	"finishChargingNodeId": "C1.2",
+	"locatePositionConfig":{
+	"positions":
+	[
+	{
+		"name": "REWORK 02",
+		"nodeId": "R.2",
+        "x":	147.74	,	"y":	93.83 ,	"ori":	180
+	}
+	]
+	},
+    "manualMissionGroups": [
+	{
+      "groupName": "REWORK 01",
+      "nodes": [
+        {
+          "nodeId": "R.1",
+          "nodeName": "REWORK 01"
+        }
+      ]
+      },
+      {
+        "groupName": "REWORK 02",
+        "nodes": [
+          {
+            "nodeId": "R.2",
+            "nodeName": "REWORK 02"
+          }
+        ]
+        },
+        {
+          "groupName": "KHO REWORK",
+          "nodes": [
+            {
+              "nodeId": "R.209",
+              "nodeName": "REWORK 209"
+            },
+            {
+              "nodeId": "R.PL",
+              "nodeName": "REWORK PL"
+            },
+            {
+              "nodeId": "R.109",
+              "nodeName": "REWORK 109"
+            },
+            {
+              "nodeId": "R.107",
+              "nodeName": "REWORK 107"
+            },
+            {
+              "nodeId": "R.102",
+              "nodeName": "REWORK 102"
+            },
+            {
+              "nodeId": "R.101",
+              "nodeName": "REWORK 101"
+            }
+          ]
+          },
+        {
+          "groupName": "RETAPE",
+          "nodes": [
+            {
+              "nodeId": "RT",
+              "nodeName": "RETAPE"
+            }
+          ]
+          },
+          {
+            "groupName": "WIP 01",
+            "nodes": [
+              {
+                "nodeId": "W.1",
+                "nodeName": "WIP 01"
+              }
+            ]
+            },
+            {
+              "groupName": "WIP 02",
+              "nodes": [
+                {
+                  "nodeId": "W.2",
+                  "nodeName": "WIP 02"
+                }
+              ]
+              },
+              {
+                "groupName": "LINE 42",
+                "nodes": [
+                  {
+                    "nodeId": "42",
+                    "nodeName": "LINE 42"
+                  }
+                ]
+                },
+                {
+                  "groupName": "LASER",
+                  "nodes": [
+                    {
+                      "nodeId": "LS",
+                      "nodeName": "LASER"
+                    }
+                  ]
+                  }               
+	 ]
+  },
+  "MX_SEVT_MobileMain_230823_A004": {
+    "acsApiBaseUrl":"http://107.114.52.252/",
+    "acsWebSocketUrl":"ws://107.114.52.252:81/amrvendor",
+	"siteCode":"VN02",
+    "areaCode":"A_FL2",
+   "chargerNodeId": "C2.2",
+    "standbyNodeId": "R.2",
+    "locateZero":{
+      "name":"Charge 02",
+	  "nodeId": "C0.2",
+      "x": 147.79,
+      "y": 70.03,
+      "ori": 180
+    },
+	"finishChargingNodeId": "C1.2",
+	"locatePositionConfig":{
+	"positions":
+	[
+	{
+		"name": "REWORK 02",
+		"nodeId": "R.2",
+        "x":	147.74	,	"y":	93.83 ,	"ori":	180
+	}
+	]
+	},
+    "manualMissionGroups": [
+	{
+      "groupName": "LINE 1",
+      "nodes": [
+        {
+          "nodeId": "1.1",
+          "nodeName": "LINE 1 FRONT"
+        },
+		{
+          "nodeId": "1.2",
+          "nodeName": "LINE 1 DECO"
+        },
+        {
+          "nodeId": "1.3",
+          "nodeName": "LINE 1 UBS"
+        },
+        {
+          "nodeId": "1.4",
+          "nodeName": "LINE 1 MFC"
+        },
+		{
+          "nodeId": "1.5",
+          "nodeName": "LINE 1 PIN"
+        },
+    {
+          "nodeId": "1.6",
+          "nodeName": "LINE 1 UBF"
+        },
+		{
+          "nodeId": "1.7",
+          "nodeName": "LINE 1 ATN-V2/V1"
+        },    
+        {
+          "nodeId": "1.8",
+          "nodeName": "LINE 1 BGL"
+        }         
+      ]
+      },
+	  {
+      "groupName": "LINE 2",
+      "nodes": [
+        {
+          "nodeId": "2.1",
+          "nodeName": "LINE 2 FRONT"
+        },
+		{
+          "nodeId": "2.2",
+          "nodeName": "LINE 2 DECO"
+        },
+        {
+          "nodeId": "2.3",
+          "nodeName": "LINE 2 UBS"
+        },
+        {
+          "nodeId": "2.4",
+          "nodeName": "LINE 2 MFC"
+        },
+        {
+          "nodeId": "2.5",
+          "nodeName": "LINE 2 PIN"
+        },
+    {
+          "nodeId": "2.6",
+          "nodeName": "LINE 2 UBF"
+        },
+        {
+          "nodeId": "2.7",
+          "nodeName": "LINE 2 ATN-V2/V1"
+        },    
+        {
+          "nodeId": "2.8",
+          "nodeName": "LINE 2 BGL"
+        }           
+      ]
+      },{
+      "groupName": "LINE 3",
+      "nodes": [
+        {
+          "nodeId": "3.1",
+          "nodeName": "LINE 3 FRONT"
+        },
+		{
+          "nodeId": "3.2",
+          "nodeName": "LINE 3 DECO"
+        },
+        {
+          "nodeId": "3.3",
+          "nodeName": "LINE 3 UBS"
+        },
+        {
+          "nodeId": "3.4",
+          "nodeName": "LINE 3 MFC"
+        },
+		{
+          "nodeId": "3.5",
+          "nodeName": "LINE 3 PIN"
+        },
+    {
+          "nodeId": "3.6",
+          "nodeName": "LINE 3 UBF"
+        },
+        {
+          "nodeId": "3.7",
+          "nodeName": "LINE 3 ATN-V2/V1"
+        },    
+        {
+          "nodeId": "3.8",
+          "nodeName": "LINE 3 BGL"
+        }           
+      ]
+      },{
+      "groupName": "LINE 4",
+      "nodes": [
+        {
+          "nodeId": "4.1",
+          "nodeName": "LINE 4 FRONT"
+        },
+		{
+          "nodeId": "4.2",
+          "nodeName": "LINE 4 DECO"
+        },
+        {
+          "nodeId": "4.3",
+          "nodeName": "LINE 4 UBS"
+        },
+        {
+          "nodeId": "4.4",
+          "nodeName": "LINE 4 MFC"
+        },
+		{
+          "nodeId": "4.5",
+          "nodeName": "LINE 4 PIN"
+        },
+    {
+          "nodeId": "4.6",
+          "nodeName": "LINE 4 UBF"
+        },
+        {
+          "nodeId": "4.7",
+          "nodeName": "LINE 4 ATN-V2/V1"
+        },    
+        {
+          "nodeId": "4.8",
+          "nodeName": "LINE 4 BGL"
+        }           
+      ]
+      },
+	  {
+      "groupName": "LINE 5",
+      "nodes": [
+        {
+          "nodeId": "5.1",
+          "nodeName": "LINE 5 FRONT"
+        },
+		{
+          "nodeId": "5.2",
+          "nodeName": "LINE 5 DECO"
+        },
+        {
+          "nodeId": "5.3",
+          "nodeName": "LINE 5 UBS"
+        },
+        {
+          "nodeId": "5.4",
+          "nodeName": "LINE 5 MFC"
+        },
+		{
+          "nodeId": "5.5",
+          "nodeName": "LINE 5 PIN"
+        },
+    {
+          "nodeId": "5.6",
+          "nodeName": "LINE 5 UBF"
+        },
+        {
+          "nodeId": "5.7",
+          "nodeName": "LINE 5 ATN-V2/V1"
+        },    
+        {
+          "nodeId": "5.8",
+          "nodeName": "LINE 5 BGL"
+        }           
+      ]
+      },
+	  {
+      "groupName": "LINE 6",
+      "nodes": [
+        {
+          "nodeId": "6.1",
+          "nodeName": "LINE 6 FRONT"
+        },
+		{
+          "nodeId": "6.2",
+          "nodeName": "LINE 6 DECO"
+        },
+        {
+          "nodeId": "6.3",
+          "nodeName": "LINE 6 UBS"
+        },
+        {
+          "nodeId": "6.4",
+          "nodeName": "LINE 6 MFC"
+        },
+		{
+          "nodeId": "6.5",
+          "nodeName": "LINE 6 PIN"
+        },
+    {
+          "nodeId": "6.6",
+          "nodeName": "LINE 6 UBF"
+        },
+        {
+          "nodeId": "6.7",
+          "nodeName": "LINE 6 ATN-V2/V1"
+        },    
+        {
+          "nodeId": "6.8",
+          "nodeName": "LINE 6 BGL"
+        }           
+      ]
+      },
+	  {
+      "groupName": "LINE 7",
+      "nodes": [
+        {
+          "nodeId": "7.1",
+          "nodeName": "LINE 7 FRONT"
+        },
+		{
+          "nodeId": "7.2",
+          "nodeName": "LINE 7 DECO"
+        },
+        {
+          "nodeId": "7.3",
+          "nodeName": "LINE 7 UBS"
+        },
+        {
+          "nodeId": "7.4",
+          "nodeName": "LINE 7 MFC"
+        },
+		{
+          "nodeId": "7.5",
+          "nodeName": "LINE 7 PIN"
+        },
+    {
+          "nodeId": "7.6",
+          "nodeName": "LINE 7 UBF"
+        },
+        {
+          "nodeId": "7.7",
+          "nodeName": "LINE 7 ATN-V2/V1"
+        },    
+        {
+          "nodeId": "7.8",
+          "nodeName": "LINE 7 BGL"
+        }           
+      ]
+      },
+	  {
+      "groupName": "LINE 8",
+      "nodes": [
+        {
+          "nodeId": "8.1",
+          "nodeName": "LINE 8 FRONT"
+        },
+		{
+          "nodeId": "8.2",
+          "nodeName": "LINE 8 DECO"
+        },
+        {
+          "nodeId": "8.3",
+          "nodeName": "LINE 8 UBS"
+        },
+        {
+          "nodeId": "8.4",
+          "nodeName": "LINE 8 MFC"
+        },
+		{
+          "nodeId": "8.5",
+          "nodeName": "LINE 8 PIN"
+        },
+    {
+          "nodeId": "8.6",
+          "nodeName": "LINE 8 UBF"
+        },
+        {
+          "nodeId": "8.7",
+          "nodeName": "LINE 8 ATN-V2/V1"
+        },    
+        {
+          "nodeId": "8.8",
+          "nodeName": "LINE 8 BGL"
+        }           
+      ]
+      },
+	  {
+      "groupName": "LINE 9",
+      "nodes": [
+        {
+          "nodeId": "9.1",
+          "nodeName": "LINE 9 FRONT"
+        },
+		{
+          "nodeId": "9.2",
+          "nodeName": "LINE 9 DECO"
+        },
+        {
+          "nodeId": "9.3",
+          "nodeName": "LINE 9 UBS"
+        },
+        {
+          "nodeId": "9.4",
+          "nodeName": "LINE 9 MFC"
+        },
+		{
+          "nodeId": "9.5",
+          "nodeName": "LINE 9 PIN"
+        },
+    {
+          "nodeId": "9.6",
+          "nodeName": "LINE 9 UBF"
+        },
+        {
+          "nodeId": "9.7",
+          "nodeName": "LINE 9 ATN-V2/V1"
+        },    
+        {
+          "nodeId": "9.8",
+          "nodeName": "LINE 9 BGL"
+        }           
+      ]
+      },
+	  {
+      "groupName": "LINE 10",
+      "nodes": [
+        {
+          "nodeId": "10.1",
+          "nodeName": "LINE 10 FRONT"
+        },
+		{
+          "nodeId": "10.2",
+          "nodeName": "LINE 10 DECO"
+        },
+        {
+          "nodeId": "10.3",
+          "nodeName": "LINE 10 UBS"
+        },
+        {
+          "nodeId": "10.4",
+          "nodeName": "LINE 10 MFC"
+        },
+		{
+          "nodeId": "10.5",
+          "nodeName": "LINE 10 PIN"
+        },
+    {
+          "nodeId": "10.6",
+          "nodeName": "LINE 10 UBF"
+        },
+        {
+          "nodeId": "10.7",
+          "nodeName": "LINE 10 ATN-V2/V1"
+        },    
+        {
+          "nodeId": "10.8",
+          "nodeName": "LINE 10 BGL"
+        }           
+      ]
+      },
+	  {
+      "groupName": "LINE 11",
+      "nodes": [
+        {
+          "nodeId": "11.1",
+          "nodeName": "LINE 11 FRONT"
+        },
+		{
+          "nodeId": "11.2",
+          "nodeName": "LINE 11 DECO"
+        },
+        {
+          "nodeId": "11.3",
+          "nodeName": "LINE 11 UBS"
+        },
+        {
+          "nodeId": "11.4",
+          "nodeName": "LINE 11 MFC"
+        },
+		{
+          "nodeId": "11.5",
+          "nodeName": "LINE 11 PIN"
+        },
+    {
+          "nodeId": "11.6",
+          "nodeName": "LINE 11 UBF"
+        },
+        {
+          "nodeId": "11.7",
+          "nodeName": "LINE 11 ATN-V2/V1"
+        },    
+        {
+          "nodeId": "11.8",
+          "nodeName": "LINE 11 BGL"
+        }           
+      ]
+      },
+	  {
+      "groupName": "LINE 12",
+      "nodes": [
+        {
+          "nodeId": "12.1",
+          "nodeName": "LINE 12 FRONT"
+        },
+		{
+          "nodeId": "12.2",
+          "nodeName": "LINE 12 DECO"
+        },
+        {
+          "nodeId": "12.3",
+          "nodeName": "LINE 12 UBS"
+        },
+        {
+          "nodeId": "12.4",
+          "nodeName": "LINE 12 MFC"
+        },
+		{
+          "nodeId": "12.5",
+          "nodeName": "LINE 12 PIN"
+        },
+    {
+          "nodeId": "12.6",
+          "nodeName": "LINE 12 UBF"
+        },
+        {
+          "nodeId": "12.7",
+          "nodeName": "LINE 12 ATN-V2/V1"
+        },    
+        {
+          "nodeId": "12.8",
+          "nodeName": "LINE 12 BGL"
+        }           
+      ]
+      },
+	  {
+      "groupName": "LINE 13",
+      "nodes": [
+        {
+          "nodeId": "13.1",
+          "nodeName": "LINE 13 FRONT"
+        },
+		{
+          "nodeId": "13.2",
+          "nodeName": "LINE 13 DECO"
+        },
+        {
+          "nodeId": "13.3",
+          "nodeName": "LINE 13 UBS"
+        },
+        {
+          "nodeId": "13.4",
+          "nodeName": "LINE 13 MFC"
+        },
+		{
+          "nodeId": "13.5",
+          "nodeName": "LINE 13 PIN"
+        },
+    {
+          "nodeId": "13.6",
+          "nodeName": "LINE 13 UBF"
+        },
+        {
+          "nodeId": "13.7",
+          "nodeName": "LINE 13 ATN-V2/V1"
+        },    
+        {
+          "nodeId": "13.8",
+          "nodeName": "LINE 13 BGL"
+        }           
+      ]
+      },
+	  {
+      "groupName": "LINE 14",
+      "nodes": [
+        {
+          "nodeId": "14.1",
+          "nodeName": "LINE 14 FRONT"
+        },
+		{
+          "nodeId": "14.2",
+          "nodeName": "LINE 14 DECO"
+        },
+        {
+          "nodeId": "14.3",
+          "nodeName": "LINE 14 UBS"
+        },
+        {
+          "nodeId": "14.4",
+          "nodeName": "LINE 14 MFC"
+        },
+		{
+          "nodeId": "14.5",
+          "nodeName": "LINE 14 PIN"
+        },
+    {
+          "nodeId": "14.6",
+          "nodeName": "LINE 14 UBF"
+        },
+        {
+          "nodeId": "14.7",
+          "nodeName": "LINE 14 ATN-V2/V1"
+        },    
+        {
+          "nodeId": "14.8",
+          "nodeName": "LINE 14 BGL"
+        }           
+      ]
+      },
+	  {
+      "groupName": "LINE 15",
+      "nodes": [
+        {
+          "nodeId": "15.1",
+          "nodeName": "LINE 15 FRONT"
+        },
+		{
+          "nodeId": "15.2",
+          "nodeName": "LINE 15 DECO"
+        },
+        {
+          "nodeId": "15.3",
+          "nodeName": "LINE 15 UBS"
+        },
+        {
+          "nodeId": "15.4",
+          "nodeName": "LINE 15 MFC"
+        },
+		{
+          "nodeId": "15.5",
+          "nodeName": "LINE 15 PIN"
+        },
+    {
+          "nodeId": "15.6",
+          "nodeName": "LINE 15 UBF"
+        },
+        {
+          "nodeId": "15.7",
+          "nodeName": "LINE 15 ATN-V2/V1"
+        },    
+        {
+          "nodeId": "15.8",
+          "nodeName": "LINE 15 BGL"
+        }           
+      ]
+      },
+	  {
+      "groupName": "LINE 16",
+      "nodes": [
+        {
+          "nodeId": "16.1",
+          "nodeName": "LINE 16 FRONT"
+        },
+		{
+          "nodeId": "16.2",
+          "nodeName": "LINE 16 DECO"
+        },
+        {
+          "nodeId": "16.3",
+          "nodeName": "LINE 16 UBS"
+        },
+        {
+          "nodeId": "16.4",
+          "nodeName": "LINE 16 MFC"
+        },
+		{
+          "nodeId": "16.5",
+          "nodeName": "LINE 16 PIN"
+        },
+    {
+          "nodeId": "16.6",
+          "nodeName": "LINE 16 UBF"
+        },
+        {
+          "nodeId": "16.7",
+          "nodeName": "LINE 16 ATN-V2/V1"
+        },
+        {
+          "nodeId": "16.8",
+          "nodeName": "LINE 16 BGL"
+        }          
+      ]
+      },
+	  {
+      "groupName": "LINE 17",
+      "nodes": [
+        {
+          "nodeId": "17.1",
+          "nodeName": "LINE 17 FRONT"
+        },
+		{
+          "nodeId": "17.2",
+          "nodeName": "LINE 17 DECO"
+        },
+        {
+          "nodeId": "17.3",
+          "nodeName": "LINE 17 UBS"
+        },
+        {
+          "nodeId": "17.4",
+          "nodeName": "LINE 17 MFC"
+        },
+		{
+          "nodeId": "17.5",
+          "nodeName": "LINE 17 PIN"
+        },
+    {
+          "nodeId": "17.6",
+          "nodeName": "LINE 17 UBF"
+        },
+        {
+          "nodeId": "17.7",
+          "nodeName": "LINE 17 ATN-V2/V1"
+        },
+        {
+          "nodeId": "17.8",
+          "nodeName": "LINE BGL"
+        }            
+      ]
+      },
+	  {
+      "groupName": "LINE 18",
+      "nodes": [
+        {
+          "nodeId": "18.1",
+          "nodeName": "LINE 18 FRONT"
+        },
+		{
+          "nodeId": "18.2",
+          "nodeName": "LINE 18 DECO"
+        },
+        {
+          "nodeId": "18.3",
+          "nodeName": "LINE 18 UBS"
+        },
+        {
+          "nodeId": "18.4",
+          "nodeName": "LINE 18 MFC"
+        },
+		{
+          "nodeId": "18.5",
+          "nodeName": "LINE 18 PIN"
+        },
+    {
+          "nodeId": "18.6",
+          "nodeName": "LINE 18 UBF"
+        },
+        {
+          "nodeId": "18.7",
+          "nodeName": "LINE 18 ATN-V2/V1"
+        },
+        {
+          "nodeId": "18.8",
+          "nodeName": "LINE 18 BGL"
+        }           
+      ]
+      },
+	  {
+      "groupName": "LINE 19",
+      "nodes": [
+        {
+          "nodeId": "19.1",
+          "nodeName": "LINE 19 FRONT"
+        },
+		{
+          "nodeId": "19.2",
+          "nodeName": "LINE 19 DECO"
+        },
+        {
+          "nodeId": "19.3",
+          "nodeName": "LINE 19 UBS"
+        },
+        {
+          "nodeId": "19.4",
+          "nodeName": "LINE 19 MFC"
+        },
+		{
+          "nodeId": "19.5",
+          "nodeName": "LINE 19 PIN"
+        },
+    {
+          "nodeId": "19.6",
+          "nodeName": "LINE 19 UBF"
+        },
+        {
+          "nodeId": "19.7",
+          "nodeName": "LINE 19 ATN-V2/V1"
+        },
+        {
+          "nodeId": "19.8",
+          "nodeName": "LINE 19 BGL"
+        }           
+      ]
+      },
+	  {
+      "groupName": "LINE 20",
+      "nodes": [
+        {
+          "nodeId": "20.1",
+          "nodeName": "LINE 20 FRONT"
+        },
+		{
+          "nodeId": "20.2",
+          "nodeName": "LINE 20 DECO"
+        },
+        {
+          "nodeId": "20.3",
+          "nodeName": "LINE 20 UBS"
+        },
+        {
+          "nodeId": "20.4",
+          "nodeName": "LINE 20 MFC"
+        },
+		{
+          "nodeId": "20.5",
+          "nodeName": "LINE 20 PIN"
+        },
+    {
+          "nodeId": "20.6",
+          "nodeName": "LINE 20 UBF"
+        },
+        {
+          "nodeId": "20.7",
+          "nodeName": "LINE 20 ATN-V2/V1"
+        },
+        {
+          "nodeId": "20.8",
+          "nodeName": "LINE 20 BGL"
+        }           
+      ]
+      },
+	  {
+      "groupName": "LINE 21",
+      "nodes": [
+        {
+          "nodeId": "21.1",
+          "nodeName": "LINE 21 FRONT"
+        },
+        {
+          "nodeId": "21.2",
+          "nodeName": "LINE 21 DECO"
+        },
+		{
+          "nodeId": "21.3",
+          "nodeName": "LINE 21 UBS"
+        },
+        {
+          "nodeId": "21.4",	
+          "nodeName": "LINE 21 MFC"
+        },
+		{
+          "nodeId": "21.5",
+          "nodeName": "LINE 21 PIN"
+        },
+    {
+          "nodeId": "21.6",
+          "nodeName": "LINE 21 UBF"
+        },
+		{
+          "nodeId": "21.7",
+          "nodeName": "LINE 21 ATN-V2/V1"
+        },
+        {
+          "nodeId": "21.8",
+          "nodeName": "LINE 21 BGL"
+        }         
+      ]
+      },
+	  {
+      "groupName": "LINE 22",
+      "nodes": [
+        {
+          "nodeId": "22.1",
+          "nodeName": "LINE 22 FRONT"
+        },
+		{
+          "nodeId": "22.2",
+          "nodeName": "LINE 22 DECO"
+        },
+        {
+          "nodeId": "22.3",
+          "nodeName": "LINE 22 UBS"
+        },
+        {
+          "nodeId": "22.4",
+          "nodeName": "LINE 22 MFC"
+        },
+		{
+          "nodeId": "22.5",
+          "nodeName": "LINE 22 PIN"
+        },
+    {
+          "nodeId": "22.6",
+          "nodeName": "LINE 22 UBF"
+        },
+        {
+          "nodeId": "22.7",
+          "nodeName": "LINE 22 ATN-V2/V1"
+        }
+,
+        {
+          "nodeId": "22.8",
+          "nodeName": "LINE 22 BGL"
+        } 		
+      ]
+      },
+      {
+        "groupName": "LINE 23",
+        "nodes": [
+          {
+            "nodeId": "23.1",
+            "nodeName": "LINE 23 FRONT"
+          },
+          {
+            "nodeId": "23.2",
+            "nodeName": "LINE 23 DECO"
+          },
+		  {
+          "nodeId": "23.3",
+          "nodeName": "LINE 23 UBS"
+        },
+          {
+            "nodeId": "23.4",
+            "nodeName": "LINE 23 MFC"
+          },
+		  {
+            "nodeId": "23.5",
+            "nodeName": "LINE 23 PIN"
+          },
+      {
+            "nodeId": "23.6",
+            "nodeName": "LINE 23 CAM"
+          },
+          {
+            "nodeId": "23.7",
+            "nodeName": "LINE 23 SPK"
+          },
+          {
+            "nodeId": "23.8",
+            "nodeName": "LINE 23 UBF"
+          },
+		  {
+            "nodeId": "23.9",
+            "nodeName": "LINE 23 ATN-V2/V1"
+          },
+          {
+            "nodeId": "23.10",
+            "nodeName": "LINE 23 BGL"
+          }             
+        ]
+        },
+        {
+          "groupName": "LINE 24",
+          "nodes": [
+            {
+              "nodeId": "24.1",
+              "nodeName": "LINE 24 FRONT"
+            },
+            {
+              "nodeId": "24.2",
+              "nodeName": "LINE 24 DECO"
+            },
+			{
+          "nodeId": "24.3",
+          "nodeName": "LINE 24 DECO"
+        },
+            {
+              "nodeId": "24.4",
+              "nodeName": "LINE 24 MFC"
+            },
+			{
+              "nodeId": "24.5",
+              "nodeName": "LINE 24 PIN"
+            },
+        {
+              "nodeId": "24.6",
+              "nodeName": "LINE 24 CAM"
+            },
+            {
+              "nodeId": "24.7",
+              "nodeName": "LINE 24 SPK"
+            },
+            {
+              "nodeId": "24.8",
+              "nodeName": "LINE 24 UBF"
+            },
+			{
+              "nodeId": "24.9",
+              "nodeName": "LINE 24 ATN-V2/V1"
+            },
+            {
+              "nodeId": "24.10",
+              "nodeName": "LINE 24 BGL"
+            }         
+          ]
+          },
+          {
+            "groupName": "LINE 25",
+            "nodes": [
+              {
+                "nodeId": "25.1",
+                "nodeName": "LINE 25 FRONT"
+              },
+			  {
+          "nodeId": "25.2",
+          "nodeName": "LINE 25 DECO"
+        },
+              {
+                "nodeId": "25.3",
+                "nodeName": "LINE 25 UBS"
+              },
+              {
+                "nodeId": "25.4",
+                "nodeName": "LINE 25 VINYL"
+              },
+			  {
+                "nodeId": "25.5",
+                "nodeName": "LINE 25 MFC"
+              },
+          {
+                "nodeId": "25.6",
+                "nodeName": "LINE 25 PIN"
+              },
+              {
+                "nodeId": "25.7",
+                "nodeName": "LINE 25 CAP"
+              }, 
+ {
+                "nodeId": "25.8",
+                "nodeName": "LINE 25 CAM"
+              },  
+ {
+                "nodeId": "25.9",
+                "nodeName": "LINE 25 SPK"
+              },  
+ {
+                "nodeId": "25.10",
+                "nodeName": "LINE 25 UBF"
+              },  
+ {
+                "nodeId": "25.11",
+                "nodeName": "LINE 25 ATN-V2/V1"
+              },  
+ {
+                "nodeId": "25.12",
+                "nodeName": "LINE 25 BGL"
+              }			  
+            ]
+            },
+            {
+            "groupName": "LINE 26",
+            "nodes": [
+              {
+                "nodeId": "26.1",
+                "nodeName": "LINE 26 FRONT"
+              },
+			  {
+          "nodeId": "26.2",
+          "nodeName": "LINE 26 DECO"
+        },
+              {
+                "nodeId": "26.3",
+                "nodeName": "LINE 26 UBS"
+              },
+              {
+                "nodeId": "26.4",
+                "nodeName": "LINE 26 VINYL"
+              },
+			   {
+                "nodeId": "26.5",
+                "nodeName": "LINE 26 MFC"
+              },
+          {
+                "nodeId": "26.6",
+                "nodeName": "LINE 26 PIN"
+              },
+              {
+                "nodeId": "26.7",
+                "nodeName": "LINE 26 CAP"
+              }, 
+ {
+                "nodeId": "26.8",
+                "nodeName": "LINE 26 CAM"
+              },  
+ {
+                "nodeId": "26.9",
+                "nodeName": "LINE 26 SPK"
+              },  
+ {
+                "nodeId": "26.10",
+                "nodeName": "LINE 26 UBF"
+              },  
+ {
+                "nodeId": "26.11",
+                "nodeName": "LINE 26 ATN-V2/V1"
+              },  
+ {
+                "nodeId": "26.12",
+                "nodeName": "LINE 26 BGL"
+              }				  
+            ]
+            },
+			{
+            "groupName": "LINE 27",
+            "nodes": [
+              {
+                "nodeId": "27.1",
+                "nodeName": "LINE 27 FRONT"
+              },
+			  {
+          "nodeId": "27.2",
+          "nodeName": "LINE 27 DECO"
+        },
+              {
+                "nodeId": "27.3",
+                "nodeName": "LINE 27 UBS"
+              },
+              {
+                "nodeId": "27.4",
+                "nodeName": "LINE 27 VINYL"
+              },
+			  {
+                "nodeId": "27.5",
+                "nodeName": "LINE 27 MFC"
+              },
+          {
+                "nodeId": "27.6",
+                "nodeName": "LINE 27 PIN"
+              },
+              {
+                "nodeId": "27.7",
+                "nodeName": "LINE 27 CAP"
+              }, 
+ {
+                "nodeId": "27.8",
+                "nodeName": "LINE 27 CAM"
+              },  
+ {
+                "nodeId": "27.9",
+                "nodeName": "LINE 27 SPK"
+              },  
+ {
+                "nodeId": "27.10",
+                "nodeName": "LINE 27 UBF"
+              },  
+ {
+                "nodeId": "27.11",
+                "nodeName": "LINE 27 ATN-V2/V1"
+              },  
+ {
+                "nodeId": "27.12",
+                "nodeName": "LINE 27 BGL"
+              }				  
+            ]
+            },
+			{
+            "groupName": "LINE 28",
+            "nodes": [
+              {
+                "nodeId": "28.1",
+                "nodeName": "LINE 28 FRONT"
+              },
+			  {
+          "nodeId": "28.2",
+          "nodeName": "LINE 28 DECO"
+        },
+              {
+                "nodeId": "28.3",
+                "nodeName": "LINE 28 UBS"
+              },
+              {
+                "nodeId": "28.4",
+                "nodeName": "LINE 28 VINYL"
+              },
+			  {
+                "nodeId": "28.5",
+                "nodeName": "LINE 28 MFC"
+              },
+          {
+                "nodeId": "28.6",
+                "nodeName": "LINE 28 PIN"
+              },
+              {
+                "nodeId": "28.7",
+                "nodeName": "LINE 28 CAP"
+              }, 
+ {
+                "nodeId": "28.8",
+                "nodeName": "LINE 28 CAM"
+              },  
+ {
+                "nodeId": "28.9",
+                "nodeName": "LINE 28 SPK"
+              },  
+ {
+                "nodeId": "28.10",
+                "nodeName": "LINE 28 UBF"
+              },  
+ {
+                "nodeId": "28.11",
+                "nodeName": "LINE 28 ATN-V2/V1"
+              },  
+ {
+                "nodeId": "28.12",
+                "nodeName": "LINE 28 BGL"
+              }				  
+            ]
+            },
+			{
+            "groupName": "LINE 29",
+            "nodes": [
+              {
+                "nodeId": "29.1",
+                "nodeName": "LINE 29 FRONT"
+              },
+			  {
+          "nodeId": "29.2",
+          "nodeName": "LINE 29 DECO"
+        },
+              {
+                "nodeId": "29.3",
+                "nodeName": "LINE 29 UBS"
+              },
+              {
+                "nodeId": "29.4",
+                "nodeName": "LINE 29 VINYL"
+              },
+			  {
+                "nodeId": "29.5",
+                "nodeName": "LINE 29 MFC"
+              },
+          {
+                "nodeId": "29.6",
+                "nodeName": "LINE 29 PIN"
+              },
+              {
+                "nodeId": "29.7",
+                "nodeName": "LINE 29 CAP"
+              }, 
+ {
+                "nodeId": "29.8",
+                "nodeName": "LINE 29 CAM"
+              },  
+ {
+                "nodeId": "29.9",
+                "nodeName": "LINE 29 SPK"
+              },  
+ {
+                "nodeId": "29.10",
+                "nodeName": "LINE 29 UBF"
+              },  
+ {
+                "nodeId": "29.11",
+                "nodeName": "LINE 29 ATN-V2/V1"
+              },  
+ {
+                "nodeId": "29.12",
+                "nodeName": "LINE 29 BGL"
+              }				  
+            ]
+            },
+			{
+            "groupName": "LINE 30",
+            "nodes": [
+              {
+                "nodeId": "30.1",
+                "nodeName": "LINE 30 FRONT"
+              },
+			   {
+                "nodeId": "30.2",
+                "nodeName": "LINE 30 DECO"
+              },
+              {
+                "nodeId": "30.3",
+                "nodeName": "LINE 30 UBS"
+              },
+              {
+                "nodeId": "30.4",
+                "nodeName": "LINE 30 VINYL"
+              },
+			  {
+                "nodeId": "30.5",
+                "nodeName": "LINE 30 MFC"
+              },
+          {
+                "nodeId": "30.6",
+                "nodeName": "LINE 30 PIN"
+              },
+              {
+                "nodeId": "30.7",
+                "nodeName": "LINE 30 CAP"
+              }, 
+ {
+                "nodeId": "30.8",
+                "nodeName": "LINE 30 CAM"
+              },  
+ {
+                "nodeId": "30.9",
+                "nodeName": "LINE 30 SPK"
+              },  
+ {
+                "nodeId": "30.10",
+                "nodeName": "LINE 30 UBF"
+              },  
+ {
+                "nodeId": "30.11",
+                "nodeName": "LINE 30 ATN-V2/V1"
+              },  
+ {
+                "nodeId": "30.12",
+                "nodeName": "LINE 30 BGL"
+              }				  
+            ]
+            }
+	 ]
+  },
+  "MX_SEVT_MobileMain_230823_A005": {
+    "acsApiBaseUrl":"http://107.114.52.252/",
+    "acsWebSocketUrl":"ws://107.114.52.252:81/amrvendor",
+	"siteCode":"VN02",
+    "areaCode":"A_FL2",
+    "chargerNodeId": "C2.1",
+    "standbyNodeId": "R.1",
+    "locateZero":{
+      "name":"Charge 01",
+	  "nodeId": "C0.1",
+	  "x":  146.64,
+      "y": 68.84,
+      "ori": 180
+    },
+	"finishChargingNodeId": "C1.1",
+	"locatePositionConfig":{
+	"positions":
+	[
+	{
+		 "name": "REWORK 01",
+		"nodeId": "R.1",
+        "x":	149	,	"y":	82.13	,	"ori":	180
+	}
+	]
+	},
+    "manualMissionGroups": [
+	{
+      "groupName": "LINE 1",
+      "nodes": [
+        {
+          "nodeId": "1.1",
+          "nodeName": "LINE 1 FRONT"
+        },
+		{
+          "nodeId": "1.2",
+          "nodeName": "LINE 1 DECO"
+        },
+        {
+          "nodeId": "1.3",
+          "nodeName": "LINE 1 UBS"
+        },
+        {
+          "nodeId": "1.4",
+          "nodeName": "LINE 1 MFC"
+        },
+		{
+          "nodeId": "1.5",
+          "nodeName": "LINE 1 PIN"
+        },
+    {
+          "nodeId": "1.6",
+          "nodeName": "LINE 1 UBF"
+        },
+		{
+          "nodeId": "1.7",
+          "nodeName": "LINE 1 ATN-V2/V1"
+        },    
+        {
+          "nodeId": "1.8",
+          "nodeName": "LINE 1 BGL"
+        }         
+      ]
+      },
+	  {
+      "groupName": "LINE 2",
+      "nodes": [
+        {
+          "nodeId": "2.1",
+          "nodeName": "LINE 2 FRONT"
+        },
+		{
+          "nodeId": "2.2",
+          "nodeName": "LINE 2 DECO"
+        },
+        {
+          "nodeId": "2.3",
+          "nodeName": "LINE 2 UBS"
+        },
+        {
+          "nodeId": "2.4",
+          "nodeName": "LINE 2 MFC"
+        },
+        {
+          "nodeId": "2.5",
+          "nodeName": "LINE 2 PIN"
+        },
+    {
+          "nodeId": "2.6",
+          "nodeName": "LINE 2 UBF"
+        },
+        {
+          "nodeId": "2.7",
+          "nodeName": "LINE 2 ATN-V2/V1"
+        },    
+        {
+          "nodeId": "2.8",
+          "nodeName": "LINE 2 BGL"
+        }           
+      ]
+      },{
+      "groupName": "LINE 3",
+      "nodes": [
+        {
+          "nodeId": "3.1",
+          "nodeName": "LINE 3 FRONT"
+        },
+		{
+          "nodeId": "3.2",
+          "nodeName": "LINE 3 DECO"
+        },
+        {
+          "nodeId": "3.3",
+          "nodeName": "LINE 3 UBS"
+        },
+        {
+          "nodeId": "3.4",
+          "nodeName": "LINE 3 MFC"
+        },
+		{
+          "nodeId": "3.5",
+          "nodeName": "LINE 3 PIN"
+        },
+    {
+          "nodeId": "3.6",
+          "nodeName": "LINE 3 UBF"
+        },
+        {
+          "nodeId": "3.7",
+          "nodeName": "LINE 3 ATN-V2/V1"
+        },    
+        {
+          "nodeId": "3.8",
+          "nodeName": "LINE 3 BGL"
+        }           
+      ]
+      },{
+      "groupName": "LINE 4",
+      "nodes": [
+        {
+          "nodeId": "4.1",
+          "nodeName": "LINE 4 FRONT"
+        },
+		{
+          "nodeId": "4.2",
+          "nodeName": "LINE 4 DECO"
+        },
+        {
+          "nodeId": "4.3",
+          "nodeName": "LINE 4 UBS"
+        },
+        {
+          "nodeId": "4.4",
+          "nodeName": "LINE 4 MFC"
+        },
+		{
+          "nodeId": "4.5",
+          "nodeName": "LINE 4 PIN"
+        },
+    {
+          "nodeId": "4.6",
+          "nodeName": "LINE 4 UBF"
+        },
+        {
+          "nodeId": "4.7",
+          "nodeName": "LINE 4 ATN-V2/V1"
+        },    
+        {
+          "nodeId": "4.8",
+          "nodeName": "LINE 4 BGL"
+        }           
+      ]
+      },
+	  {
+      "groupName": "LINE 5",
+      "nodes": [
+        {
+          "nodeId": "5.1",
+          "nodeName": "LINE 5 FRONT"
+        },
+		{
+          "nodeId": "5.2",
+          "nodeName": "LINE 5 DECO"
+        },
+        {
+          "nodeId": "5.3",
+          "nodeName": "LINE 5 UBS"
+        },
+        {
+          "nodeId": "5.4",
+          "nodeName": "LINE 5 MFC"
+        },
+		{
+          "nodeId": "5.5",
+          "nodeName": "LINE 5 PIN"
+        },
+    {
+          "nodeId": "5.6",
+          "nodeName": "LINE 5 UBF"
+        },
+        {
+          "nodeId": "5.7",
+          "nodeName": "LINE 5 ATN-V2/V1"
+        },    
+        {
+          "nodeId": "5.8",
+          "nodeName": "LINE 5 BGL"
+        }           
+      ]
+      },
+	  {
+      "groupName": "LINE 6",
+      "nodes": [
+        {
+          "nodeId": "6.1",
+          "nodeName": "LINE 6 FRONT"
+        },
+		{
+          "nodeId": "6.2",
+          "nodeName": "LINE 6 DECO"
+        },
+        {
+          "nodeId": "6.3",
+          "nodeName": "LINE 6 UBS"
+        },
+        {
+          "nodeId": "6.4",
+          "nodeName": "LINE 6 MFC"
+        },
+		{
+          "nodeId": "6.5",
+          "nodeName": "LINE 6 PIN"
+        },
+    {
+          "nodeId": "6.6",
+          "nodeName": "LINE 6 UBF"
+        },
+        {
+          "nodeId": "6.7",
+          "nodeName": "LINE 6 ATN-V2/V1"
+        },    
+        {
+          "nodeId": "6.8",
+          "nodeName": "LINE 6 BGL"
+        }           
+      ]
+      },
+	  {
+      "groupName": "LINE 7",
+      "nodes": [
+        {
+          "nodeId": "7.1",
+          "nodeName": "LINE 7 FRONT"
+        },
+		{
+          "nodeId": "7.2",
+          "nodeName": "LINE 7 DECO"
+        },
+        {
+          "nodeId": "7.3",
+          "nodeName": "LINE 7 UBS"
+        },
+        {
+          "nodeId": "7.4",
+          "nodeName": "LINE 7 MFC"
+        },
+		{
+          "nodeId": "7.5",
+          "nodeName": "LINE 7 PIN"
+        },
+    {
+          "nodeId": "7.6",
+          "nodeName": "LINE 7 UBF"
+        },
+        {
+          "nodeId": "7.7",
+          "nodeName": "LINE 7 ATN-V2/V1"
+        },    
+        {
+          "nodeId": "7.8",
+          "nodeName": "LINE 7 BGL"
+        }           
+      ]
+      },
+	  {
+      "groupName": "LINE 8",
+      "nodes": [
+        {
+          "nodeId": "8.1",
+          "nodeName": "LINE 8 FRONT"
+        },
+		{
+          "nodeId": "8.2",
+          "nodeName": "LINE 8 DECO"
+        },
+        {
+          "nodeId": "8.3",
+          "nodeName": "LINE 8 UBS"
+        },
+        {
+          "nodeId": "8.4",
+          "nodeName": "LINE 8 MFC"
+        },
+		{
+          "nodeId": "8.5",
+          "nodeName": "LINE 8 PIN"
+        },
+    {
+          "nodeId": "8.6",
+          "nodeName": "LINE 8 UBF"
+        },
+        {
+          "nodeId": "8.7",
+          "nodeName": "LINE 8 ATN-V2/V1"
+        },    
+        {
+          "nodeId": "8.8",
+          "nodeName": "LINE 8 BGL"
+        }           
+      ]
+      },
+	  {
+      "groupName": "LINE 9",
+      "nodes": [
+        {
+          "nodeId": "9.1",
+          "nodeName": "LINE 9 FRONT"
+        },
+		{
+          "nodeId": "9.2",
+          "nodeName": "LINE 9 DECO"
+        },
+        {
+          "nodeId": "9.3",
+          "nodeName": "LINE 9 UBS"
+        },
+        {
+          "nodeId": "9.4",
+          "nodeName": "LINE 9 MFC"
+        },
+		{
+          "nodeId": "9.5",
+          "nodeName": "LINE 9 PIN"
+        },
+    {
+          "nodeId": "9.6",
+          "nodeName": "LINE 9 UBF"
+        },
+        {
+          "nodeId": "9.7",
+          "nodeName": "LINE 9 ATN-V2/V1"
+        },    
+        {
+          "nodeId": "9.8",
+          "nodeName": "LINE 9 BGL"
+        }           
+      ]
+      },
+	  {
+      "groupName": "LINE 10",
+      "nodes": [
+        {
+          "nodeId": "10.1",
+          "nodeName": "LINE 10 FRONT"
+        },
+		{
+          "nodeId": "10.2",
+          "nodeName": "LINE 10 DECO"
+        },
+        {
+          "nodeId": "10.3",
+          "nodeName": "LINE 10 UBS"
+        },
+        {
+          "nodeId": "10.4",
+          "nodeName": "LINE 10 MFC"
+        },
+		{
+          "nodeId": "10.5",
+          "nodeName": "LINE 10 PIN"
+        },
+    {
+          "nodeId": "10.6",
+          "nodeName": "LINE 10 UBF"
+        },
+        {
+          "nodeId": "10.7",
+          "nodeName": "LINE 10 ATN-V2/V1"
+        },    
+        {
+          "nodeId": "10.8",
+          "nodeName": "LINE 10 BGL"
+        }           
+      ]
+      },
+	  {
+      "groupName": "LINE 11",
+      "nodes": [
+        {
+          "nodeId": "11.1",
+          "nodeName": "LINE 11 FRONT"
+        },
+		{
+          "nodeId": "11.2",
+          "nodeName": "LINE 11 DECO"
+        },
+        {
+          "nodeId": "11.3",
+          "nodeName": "LINE 11 UBS"
+        },
+        {
+          "nodeId": "11.4",
+          "nodeName": "LINE 11 MFC"
+        },
+		{
+          "nodeId": "11.5",
+          "nodeName": "LINE 11 PIN"
+        },
+    {
+          "nodeId": "11.6",
+          "nodeName": "LINE 11 UBF"
+        },
+        {
+          "nodeId": "11.7",
+          "nodeName": "LINE 11 ATN-V2/V1"
+        },    
+        {
+          "nodeId": "11.8",
+          "nodeName": "LINE 11 BGL"
+        }           
+      ]
+      },
+	  {
+      "groupName": "LINE 12",
+      "nodes": [
+        {
+          "nodeId": "12.1",
+          "nodeName": "LINE 12 FRONT"
+        },
+		{
+          "nodeId": "12.2",
+          "nodeName": "LINE 12 DECO"
+        },
+        {
+          "nodeId": "12.3",
+          "nodeName": "LINE 12 UBS"
+        },
+        {
+          "nodeId": "12.4",
+          "nodeName": "LINE 12 MFC"
+        },
+		{
+          "nodeId": "12.5",
+          "nodeName": "LINE 12 PIN"
+        },
+    {
+          "nodeId": "12.6",
+          "nodeName": "LINE 12 UBF"
+        },
+        {
+          "nodeId": "12.7",
+          "nodeName": "LINE 12 ATN-V2/V1"
+        },    
+        {
+          "nodeId": "12.8",
+          "nodeName": "LINE 12 BGL"
+        }           
+      ]
+      },
+	  {
+      "groupName": "LINE 13",
+      "nodes": [
+        {
+          "nodeId": "13.1",
+          "nodeName": "LINE 13 FRONT"
+        },
+		{
+          "nodeId": "13.2",
+          "nodeName": "LINE 13 DECO"
+        },
+        {
+          "nodeId": "13.3",
+          "nodeName": "LINE 13 UBS"
+        },
+        {
+          "nodeId": "13.4",
+          "nodeName": "LINE 13 MFC"
+        },
+		{
+          "nodeId": "13.5",
+          "nodeName": "LINE 13 PIN"
+        },
+    {
+          "nodeId": "13.6",
+          "nodeName": "LINE 13 UBF"
+        },
+        {
+          "nodeId": "13.7",
+          "nodeName": "LINE 13 ATN-V2/V1"
+        },    
+        {
+          "nodeId": "13.8",
+          "nodeName": "LINE 13 BGL"
+        }           
+      ]
+      },
+	  {
+      "groupName": "LINE 14",
+      "nodes": [
+        {
+          "nodeId": "14.1",
+          "nodeName": "LINE 14 FRONT"
+        },
+		{
+          "nodeId": "14.2",
+          "nodeName": "LINE 14 DECO"
+        },
+        {
+          "nodeId": "14.3",
+          "nodeName": "LINE 14 UBS"
+        },
+        {
+          "nodeId": "14.4",
+          "nodeName": "LINE 14 MFC"
+        },
+		{
+          "nodeId": "14.5",
+          "nodeName": "LINE 14 PIN"
+        },
+    {
+          "nodeId": "14.6",
+          "nodeName": "LINE 14 UBF"
+        },
+        {
+          "nodeId": "14.7",
+          "nodeName": "LINE 14 ATN-V2/V1"
+        },    
+        {
+          "nodeId": "14.8",
+          "nodeName": "LINE 14 BGL"
+        }           
+      ]
+      },
+	  {
+      "groupName": "LINE 15",
+      "nodes": [
+        {
+          "nodeId": "15.1",
+          "nodeName": "LINE 15 FRONT"
+        },
+		{
+          "nodeId": "15.2",
+          "nodeName": "LINE 15 DECO"
+        },
+        {
+          "nodeId": "15.3",
+          "nodeName": "LINE 15 UBS"
+        },
+        {
+          "nodeId": "15.4",
+          "nodeName": "LINE 15 MFC"
+        },
+		{
+          "nodeId": "15.5",
+          "nodeName": "LINE 15 PIN"
+        },
+    {
+          "nodeId": "15.6",
+          "nodeName": "LINE 15 UBF"
+        },
+        {
+          "nodeId": "15.7",
+          "nodeName": "LINE 15 ATN-V2/V1"
+        },    
+        {
+          "nodeId": "15.8",
+          "nodeName": "LINE 15 BGL"
+        }           
+      ]
+      },
+	  {
+      "groupName": "LINE 16",
+      "nodes": [
+        {
+          "nodeId": "16.1",
+          "nodeName": "LINE 16 FRONT"
+        },
+		{
+          "nodeId": "16.2",
+          "nodeName": "LINE 16 DECO"
+        },
+        {
+          "nodeId": "16.3",
+          "nodeName": "LINE 16 UBS"
+        },
+        {
+          "nodeId": "16.4",
+          "nodeName": "LINE 16 MFC"
+        },
+		{
+          "nodeId": "16.5",
+          "nodeName": "LINE 16 PIN"
+        },
+    {
+          "nodeId": "16.6",
+          "nodeName": "LINE 16 UBF"
+        },
+        {
+          "nodeId": "16.7",
+          "nodeName": "LINE 16 ATN-V2/V1"
+        },
+        {
+          "nodeId": "16.8",
+          "nodeName": "LINE 16 BGL"
+        }          
+      ]
+      },
+	  {
+      "groupName": "LINE 17",
+      "nodes": [
+        {
+          "nodeId": "17.1",
+          "nodeName": "LINE 17 FRONT"
+        },
+		{
+          "nodeId": "17.2",
+          "nodeName": "LINE 17 DECO"
+        },
+        {
+          "nodeId": "17.3",
+          "nodeName": "LINE 17 UBS"
+        },
+        {
+          "nodeId": "17.4",
+          "nodeName": "LINE 17 MFC"
+        },
+		{
+          "nodeId": "17.5",
+          "nodeName": "LINE 17 PIN"
+        },
+    {
+          "nodeId": "17.6",
+          "nodeName": "LINE 17 UBF"
+        },
+        {
+          "nodeId": "17.7",
+          "nodeName": "LINE 17 ATN-V2/V1"
+        },
+        {
+          "nodeId": "17.8",
+          "nodeName": "LINE BGL"
+        }            
+      ]
+      },
+	  {
+      "groupName": "LINE 18",
+      "nodes": [
+        {
+          "nodeId": "18.1",
+          "nodeName": "LINE 18 FRONT"
+        },
+		{
+          "nodeId": "18.2",
+          "nodeName": "LINE 18 DECO"
+        },
+        {
+          "nodeId": "18.3",
+          "nodeName": "LINE 18 UBS"
+        },
+        {
+          "nodeId": "18.4",
+          "nodeName": "LINE 18 MFC"
+        },
+		{
+          "nodeId": "18.5",
+          "nodeName": "LINE 18 PIN"
+        },
+    {
+          "nodeId": "18.6",
+          "nodeName": "LINE 18 UBF"
+        },
+        {
+          "nodeId": "18.7",
+          "nodeName": "LINE 18 ATN-V2/V1"
+        },
+        {
+          "nodeId": "18.8",
+          "nodeName": "LINE 18 BGL"
+        }           
+      ]
+      },
+	  {
+      "groupName": "LINE 19",
+      "nodes": [
+        {
+          "nodeId": "19.1",
+          "nodeName": "LINE 19 FRONT"
+        },
+		{
+          "nodeId": "19.2",
+          "nodeName": "LINE 19 DECO"
+        },
+        {
+          "nodeId": "19.3",
+          "nodeName": "LINE 19 UBS"
+        },
+        {
+          "nodeId": "19.4",
+          "nodeName": "LINE 19 MFC"
+        },
+		{
+          "nodeId": "19.5",
+          "nodeName": "LINE 19 PIN"
+        },
+    {
+          "nodeId": "19.6",
+          "nodeName": "LINE 19 UBF"
+        },
+        {
+          "nodeId": "19.7",
+          "nodeName": "LINE 19 ATN-V2/V1"
+        },
+        {
+          "nodeId": "19.8",
+          "nodeName": "LINE 19 BGL"
+        }           
+      ]
+      },
+	  {
+      "groupName": "LINE 20",
+      "nodes": [
+        {
+          "nodeId": "20.1",
+          "nodeName": "LINE 20 FRONT"
+        },
+		{
+          "nodeId": "20.2",
+          "nodeName": "LINE 20 DECO"
+        },
+        {
+          "nodeId": "20.3",
+          "nodeName": "LINE 20 UBS"
+        },
+        {
+          "nodeId": "20.4",
+          "nodeName": "LINE 20 MFC"
+        },
+		{
+          "nodeId": "20.5",
+          "nodeName": "LINE 20 PIN"
+        },
+    {
+          "nodeId": "20.6",
+          "nodeName": "LINE 20 UBF"
+        },
+        {
+          "nodeId": "20.7",
+          "nodeName": "LINE 20 ATN-V2/V1"
+        },
+        {
+          "nodeId": "20.8",
+          "nodeName": "LINE 20 BGL"
+        }           
+      ]
+      },
+	  {
+      "groupName": "LINE 21",
+      "nodes": [
+        {
+          "nodeId": "21.1",
+          "nodeName": "LINE 21 FRONT"
+        },
+        {
+          "nodeId": "21.2",
+          "nodeName": "LINE 21 DECO"
+        },
+		{
+          "nodeId": "21.3",
+          "nodeName": "LINE 21 UBS"
+        },
+        {
+          "nodeId": "21.4",	
+          "nodeName": "LINE 21 MFC"
+        },
+		{
+          "nodeId": "21.5",
+          "nodeName": "LINE 21 PIN"
+        },
+    {
+          "nodeId": "21.6",
+          "nodeName": "LINE 21 UBF"
+        },
+		{
+          "nodeId": "21.7",
+          "nodeName": "LINE 21 ATN-V2/V1"
+        },
+        {
+          "nodeId": "21.8",
+          "nodeName": "LINE 21 BGL"
+        }         
+      ]
+      },
+	  {
+      "groupName": "LINE 22",
+      "nodes": [
+        {
+          "nodeId": "22.1",
+          "nodeName": "LINE 22 FRONT"
+        },
+		{
+          "nodeId": "22.2",
+          "nodeName": "LINE 22 DECO"
+        },
+        {
+          "nodeId": "22.3",
+          "nodeName": "LINE 22 UBS"
+        },
+        {
+          "nodeId": "22.4",
+          "nodeName": "LINE 22 MFC"
+        },
+		{
+          "nodeId": "22.5",
+          "nodeName": "LINE 22 PIN"
+        },
+    {
+          "nodeId": "22.6",
+          "nodeName": "LINE 22 UBF"
+        },
+        {
+          "nodeId": "22.7",
+          "nodeName": "LINE 22 ATN-V2/V1"
+        }
+,
+        {
+          "nodeId": "22.8",
+          "nodeName": "LINE 22 BGL"
+        } 		
+      ]
+      },
+      {
+        "groupName": "LINE 23",
+        "nodes": [
+          {
+            "nodeId": "23.1",
+            "nodeName": "LINE 23 FRONT"
+          },
+          {
+            "nodeId": "23.2",
+            "nodeName": "LINE 23 DECO"
+          },
+		  {
+          "nodeId": "23.3",
+          "nodeName": "LINE 23 UBS"
+        },
+          {
+            "nodeId": "23.4",
+            "nodeName": "LINE 23 MFC"
+          },
+		  {
+            "nodeId": "23.5",
+            "nodeName": "LINE 23 PIN"
+          },
+      {
+            "nodeId": "23.6",
+            "nodeName": "LINE 23 CAM"
+          },
+          {
+            "nodeId": "23.7",
+            "nodeName": "LINE 23 SPK"
+          },
+          {
+            "nodeId": "23.8",
+            "nodeName": "LINE 23 UBF"
+          },
+		  {
+            "nodeId": "23.9",
+            "nodeName": "LINE 23 ATN-V2/V1"
+          },
+          {
+            "nodeId": "23.10",
+            "nodeName": "LINE 23 BGL"
+          }             
+        ]
+        },
+        {
+          "groupName": "LINE 24",
+          "nodes": [
+            {
+              "nodeId": "24.1",
+              "nodeName": "LINE 24 FRONT"
+            },
+            {
+              "nodeId": "24.2",
+              "nodeName": "LINE 24 DECO"
+            },
+			{
+          "nodeId": "24.3",
+          "nodeName": "LINE 24 DECO"
+        },
+            {
+              "nodeId": "24.4",
+              "nodeName": "LINE 24 MFC"
+            },
+			{
+              "nodeId": "24.5",
+              "nodeName": "LINE 24 PIN"
+            },
+        {
+              "nodeId": "24.6",
+              "nodeName": "LINE 24 CAM"
+            },
+            {
+              "nodeId": "24.7",
+              "nodeName": "LINE 24 SPK"
+            },
+            {
+              "nodeId": "24.8",
+              "nodeName": "LINE 24 UBF"
+            },
+			{
+              "nodeId": "24.9",
+              "nodeName": "LINE 24 ATN-V2/V1"
+            },
+            {
+              "nodeId": "24.10",
+              "nodeName": "LINE 24 BGL"
+            }         
+          ]
+          },
+          {
+            "groupName": "LINE 25",
+            "nodes": [
+              {
+                "nodeId": "25.1",
+                "nodeName": "LINE 25 FRONT"
+              },
+			  {
+          "nodeId": "25.2",
+          "nodeName": "LINE 25 DECO"
+        },
+              {
+                "nodeId": "25.3",
+                "nodeName": "LINE 25 UBS"
+              },
+              {
+                "nodeId": "25.4",
+                "nodeName": "LINE 25 VINYL"
+              },
+			  {
+                "nodeId": "25.5",
+                "nodeName": "LINE 25 MFC"
+              },
+          {
+                "nodeId": "25.6",
+                "nodeName": "LINE 25 PIN"
+              },
+              {
+                "nodeId": "25.7",
+                "nodeName": "LINE 25 CAP"
+              }, 
+ {
+                "nodeId": "25.8",
+                "nodeName": "LINE 25 CAM"
+              },  
+ {
+                "nodeId": "25.9",
+                "nodeName": "LINE 25 SPK"
+              },  
+ {
+                "nodeId": "25.10",
+                "nodeName": "LINE 25 UBF"
+              },  
+ {
+                "nodeId": "25.11",
+                "nodeName": "LINE 25 ATN-V2/V1"
+              },  
+ {
+                "nodeId": "25.12",
+                "nodeName": "LINE 25 BGL"
+              }			  
+            ]
+            },
+            {
+            "groupName": "LINE 26",
+            "nodes": [
+              {
+                "nodeId": "26.1",
+                "nodeName": "LINE 26 FRONT"
+              },
+			  {
+          "nodeId": "26.2",
+          "nodeName": "LINE 26 DECO"
+        },
+              {
+                "nodeId": "26.3",
+                "nodeName": "LINE 26 UBS"
+              },
+              {
+                "nodeId": "26.4",
+                "nodeName": "LINE 26 VINYL"
+              },
+			   {
+                "nodeId": "26.5",
+                "nodeName": "LINE 26 MFC"
+              },
+          {
+                "nodeId": "26.6",
+                "nodeName": "LINE 26 PIN"
+              },
+              {
+                "nodeId": "26.7",
+                "nodeName": "LINE 26 CAP"
+              }, 
+ {
+                "nodeId": "26.8",
+                "nodeName": "LINE 26 CAM"
+              },  
+ {
+                "nodeId": "26.9",
+                "nodeName": "LINE 26 SPK"
+              },  
+ {
+                "nodeId": "26.10",
+                "nodeName": "LINE 26 UBF"
+              },  
+ {
+                "nodeId": "26.11",
+                "nodeName": "LINE 26 ATN-V2/V1"
+              },  
+ {
+                "nodeId": "26.12",
+                "nodeName": "LINE 26 BGL"
+              }				  
+            ]
+            },
+			{
+            "groupName": "LINE 27",
+            "nodes": [
+              {
+                "nodeId": "27.1",
+                "nodeName": "LINE 27 FRONT"
+              },
+			  {
+          "nodeId": "27.2",
+          "nodeName": "LINE 27 DECO"
+        },
+              {
+                "nodeId": "27.3",
+                "nodeName": "LINE 27 UBS"
+              },
+              {
+                "nodeId": "27.4",
+                "nodeName": "LINE 27 VINYL"
+              },
+			  {
+                "nodeId": "27.5",
+                "nodeName": "LINE 27 MFC"
+              },
+          {
+                "nodeId": "27.6",
+                "nodeName": "LINE 27 PIN"
+              },
+              {
+                "nodeId": "27.7",
+                "nodeName": "LINE 27 CAP"
+              }, 
+ {
+                "nodeId": "27.8",
+                "nodeName": "LINE 27 CAM"
+              },  
+ {
+                "nodeId": "27.9",
+                "nodeName": "LINE 27 SPK"
+              },  
+ {
+                "nodeId": "27.10",
+                "nodeName": "LINE 27 UBF"
+              },  
+ {
+                "nodeId": "27.11",
+                "nodeName": "LINE 27 ATN-V2/V1"
+              },  
+ {
+                "nodeId": "27.12",
+                "nodeName": "LINE 27 BGL"
+              }				  
+            ]
+            },
+			{
+            "groupName": "LINE 28",
+            "nodes": [
+              {
+                "nodeId": "28.1",
+                "nodeName": "LINE 28 FRONT"
+              },
+			  {
+          "nodeId": "28.2",
+          "nodeName": "LINE 28 DECO"
+        },
+              {
+                "nodeId": "28.3",
+                "nodeName": "LINE 28 UBS"
+              },
+              {
+                "nodeId": "28.4",
+                "nodeName": "LINE 28 VINYL"
+              },
+			  {
+                "nodeId": "28.5",
+                "nodeName": "LINE 28 MFC"
+              },
+          {
+                "nodeId": "28.6",
+                "nodeName": "LINE 28 PIN"
+              },
+              {
+                "nodeId": "28.7",
+                "nodeName": "LINE 28 CAP"
+              }, 
+ {
+                "nodeId": "28.8",
+                "nodeName": "LINE 28 CAM"
+              },  
+ {
+                "nodeId": "28.9",
+                "nodeName": "LINE 28 SPK"
+              },  
+ {
+                "nodeId": "28.10",
+                "nodeName": "LINE 28 UBF"
+              },  
+ {
+                "nodeId": "28.11",
+                "nodeName": "LINE 28 ATN-V2/V1"
+              },  
+ {
+                "nodeId": "28.12",
+                "nodeName": "LINE 28 BGL"
+              }				  
+            ]
+            },
+			{
+            "groupName": "LINE 29",
+            "nodes": [
+              {
+                "nodeId": "29.1",
+                "nodeName": "LINE 29 FRONT"
+              },
+			  {
+          "nodeId": "29.2",
+          "nodeName": "LINE 29 DECO"
+        },
+              {
+                "nodeId": "29.3",
+                "nodeName": "LINE 29 UBS"
+              },
+              {
+                "nodeId": "29.4",
+                "nodeName": "LINE 29 VINYL"
+              },
+			  {
+                "nodeId": "29.5",
+                "nodeName": "LINE 29 MFC"
+              },
+          {
+                "nodeId": "29.6",
+                "nodeName": "LINE 29 PIN"
+              },
+              {
+                "nodeId": "29.7",
+                "nodeName": "LINE 29 CAP"
+              }, 
+ {
+                "nodeId": "29.8",
+                "nodeName": "LINE 29 CAM"
+              },  
+ {
+                "nodeId": "29.9",
+                "nodeName": "LINE 29 SPK"
+              },  
+ {
+                "nodeId": "29.10",
+                "nodeName": "LINE 29 UBF"
+              },  
+ {
+                "nodeId": "29.11",
+                "nodeName": "LINE 29 ATN-V2/V1"
+              },  
+ {
+                "nodeId": "29.12",
+                "nodeName": "LINE 29 BGL"
+              }				  
+            ]
+            },
+			{
+            "groupName": "LINE 30",
+            "nodes": [
+              {
+                "nodeId": "30.1",
+                "nodeName": "LINE 30 FRONT"
+              },
+			   {
+                "nodeId": "30.2",
+                "nodeName": "LINE 30 DECO"
+              },
+              {
+                "nodeId": "30.3",
+                "nodeName": "LINE 30 UBS"
+              },
+              {
+                "nodeId": "30.4",
+                "nodeName": "LINE 30 VINYL"
+              },
+			  {
+                "nodeId": "30.5",
+                "nodeName": "LINE 30 MFC"
+              },
+          {
+                "nodeId": "30.6",
+                "nodeName": "LINE 30 PIN"
+              },
+              {
+                "nodeId": "30.7",
+                "nodeName": "LINE 30 CAP"
+              }, 
+ {
+                "nodeId": "30.8",
+                "nodeName": "LINE 30 CAM"
+              },  
+ {
+                "nodeId": "30.9",
+                "nodeName": "LINE 30 SPK"
+              },  
+ {
+                "nodeId": "30.10",
+                "nodeName": "LINE 30 UBF"
+              },  
+ {
+                "nodeId": "30.11",
+                "nodeName": "LINE 30 ATN-V2/V1"
+              },  
+ {
+                "nodeId": "30.12",
+                "nodeName": "LINE 30 BGL"
+              }				  
+            ]
+            }
+	 ]
+  },
+  "MX_SEVT_MobileMain_230823_A006": {
+    "acsApiBaseUrl":"http://107.114.52.252/",
+    "acsWebSocketUrl":"ws://107.114.52.252:81/amrvendor",
+	"siteCode":"VN02",
+    "areaCode":"A_FL2",
+    "chargerNodeId": "C2.1",
+    "standbyNodeId": "R.1",
+    "locateZero":{
+      "name":"Charge 01",
+	  "nodeId": "C0.1",
+	  "x":  146.64,
+      "y": 68.84,
+      "ori": 180
+    },
+	"finishChargingNodeId": "C1.1",
+	"locatePositionConfig":{
+	"positions":
+	[
+	{
+		 "name": "REWORK 01",
+		"nodeId": "R.1",
+        "x":	149	,	"y":	82.13	,	"ori":	180
+	}
+	]
+	},
+    "manualMissionGroups": [
+	{
+      "groupName": "LINE 1",
+      "nodes": [
+        {
+          "nodeId": "1.1",
+          "nodeName": "LINE 1 FRONT"
+        },
+		{
+          "nodeId": "1.2",
+          "nodeName": "LINE 1 DECO"
+        },
+        {
+          "nodeId": "1.3",
+          "nodeName": "LINE 1 UBS"
+        },
+        {
+          "nodeId": "1.4",
+          "nodeName": "LINE 1 MFC"
+        },
+		{
+          "nodeId": "1.5",
+          "nodeName": "LINE 1 PIN"
+        },
+    {
+          "nodeId": "1.6",
+          "nodeName": "LINE 1 UBF"
+        },
+		{
+          "nodeId": "1.7",
+          "nodeName": "LINE 1 ATN-V2/V1"
+        },    
+        {
+          "nodeId": "1.8",
+          "nodeName": "LINE 1 BGL"
+        }         
+      ]
+      },
+	  {
+      "groupName": "LINE 2",
+      "nodes": [
+        {
+          "nodeId": "2.1",
+          "nodeName": "LINE 2 FRONT"
+        },
+		{
+          "nodeId": "2.2",
+          "nodeName": "LINE 2 DECO"
+        },
+        {
+          "nodeId": "2.3",
+          "nodeName": "LINE 2 UBS"
+        },
+        {
+          "nodeId": "2.4",
+          "nodeName": "LINE 2 MFC"
+        },
+        {
+          "nodeId": "2.5",
+          "nodeName": "LINE 2 PIN"
+        },
+    {
+          "nodeId": "2.6",
+          "nodeName": "LINE 2 UBF"
+        },
+        {
+          "nodeId": "2.7",
+          "nodeName": "LINE 2 ATN-V2/V1"
+        },    
+        {
+          "nodeId": "2.8",
+          "nodeName": "LINE 2 BGL"
+        }           
+      ]
+      },{
+      "groupName": "LINE 3",
+      "nodes": [
+        {
+          "nodeId": "3.1",
+          "nodeName": "LINE 3 FRONT"
+        },
+		{
+          "nodeId": "3.2",
+          "nodeName": "LINE 3 DECO"
+        },
+        {
+          "nodeId": "3.3",
+          "nodeName": "LINE 3 UBS"
+        },
+        {
+          "nodeId": "3.4",
+          "nodeName": "LINE 3 MFC"
+        },
+		{
+          "nodeId": "3.5",
+          "nodeName": "LINE 3 PIN"
+        },
+    {
+          "nodeId": "3.6",
+          "nodeName": "LINE 3 UBF"
+        },
+        {
+          "nodeId": "3.7",
+          "nodeName": "LINE 3 ATN-V2/V1"
+        },    
+        {
+          "nodeId": "3.8",
+          "nodeName": "LINE 3 BGL"
+        }           
+      ]
+      },{
+      "groupName": "LINE 4",
+      "nodes": [
+        {
+          "nodeId": "4.1",
+          "nodeName": "LINE 4 FRONT"
+        },
+		{
+          "nodeId": "4.2",
+          "nodeName": "LINE 4 DECO"
+        },
+        {
+          "nodeId": "4.3",
+          "nodeName": "LINE 4 UBS"
+        },
+        {
+          "nodeId": "4.4",
+          "nodeName": "LINE 4 MFC"
+        },
+		{
+          "nodeId": "4.5",
+          "nodeName": "LINE 4 PIN"
+        },
+    {
+          "nodeId": "4.6",
+          "nodeName": "LINE 4 UBF"
+        },
+        {
+          "nodeId": "4.7",
+          "nodeName": "LINE 4 ATN-V2/V1"
+        },    
+        {
+          "nodeId": "4.8",
+          "nodeName": "LINE 4 BGL"
+        }           
+      ]
+      },
+	  {
+      "groupName": "LINE 5",
+      "nodes": [
+        {
+          "nodeId": "5.1",
+          "nodeName": "LINE 5 FRONT"
+        },
+		{
+          "nodeId": "5.2",
+          "nodeName": "LINE 5 DECO"
+        },
+        {
+          "nodeId": "5.3",
+          "nodeName": "LINE 5 UBS"
+        },
+        {
+          "nodeId": "5.4",
+          "nodeName": "LINE 5 MFC"
+        },
+		{
+          "nodeId": "5.5",
+          "nodeName": "LINE 5 PIN"
+        },
+    {
+          "nodeId": "5.6",
+          "nodeName": "LINE 5 UBF"
+        },
+        {
+          "nodeId": "5.7",
+          "nodeName": "LINE 5 ATN-V2/V1"
+        },    
+        {
+          "nodeId": "5.8",
+          "nodeName": "LINE 5 BGL"
+        }           
+      ]
+      },
+	  {
+      "groupName": "LINE 6",
+      "nodes": [
+        {
+          "nodeId": "6.1",
+          "nodeName": "LINE 6 FRONT"
+        },
+		{
+          "nodeId": "6.2",
+          "nodeName": "LINE 6 DECO"
+        },
+        {
+          "nodeId": "6.3",
+          "nodeName": "LINE 6 UBS"
+        },
+        {
+          "nodeId": "6.4",
+          "nodeName": "LINE 6 MFC"
+        },
+		{
+          "nodeId": "6.5",
+          "nodeName": "LINE 6 PIN"
+        },
+    {
+          "nodeId": "6.6",
+          "nodeName": "LINE 6 UBF"
+        },
+        {
+          "nodeId": "6.7",
+          "nodeName": "LINE 6 ATN-V2/V1"
+        },    
+        {
+          "nodeId": "6.8",
+          "nodeName": "LINE 6 BGL"
+        }           
+      ]
+      },
+	  {
+      "groupName": "LINE 7",
+      "nodes": [
+        {
+          "nodeId": "7.1",
+          "nodeName": "LINE 7 FRONT"
+        },
+		{
+          "nodeId": "7.2",
+          "nodeName": "LINE 7 DECO"
+        },
+        {
+          "nodeId": "7.3",
+          "nodeName": "LINE 7 UBS"
+        },
+        {
+          "nodeId": "7.4",
+          "nodeName": "LINE 7 MFC"
+        },
+		{
+          "nodeId": "7.5",
+          "nodeName": "LINE 7 PIN"
+        },
+    {
+          "nodeId": "7.6",
+          "nodeName": "LINE 7 UBF"
+        },
+        {
+          "nodeId": "7.7",
+          "nodeName": "LINE 7 ATN-V2/V1"
+        },    
+        {
+          "nodeId": "7.8",
+          "nodeName": "LINE 7 BGL"
+        }           
+      ]
+      },
+	  {
+      "groupName": "LINE 8",
+      "nodes": [
+        {
+          "nodeId": "8.1",
+          "nodeName": "LINE 8 FRONT"
+        },
+		{
+          "nodeId": "8.2",
+          "nodeName": "LINE 8 DECO"
+        },
+        {
+          "nodeId": "8.3",
+          "nodeName": "LINE 8 UBS"
+        },
+        {
+          "nodeId": "8.4",
+          "nodeName": "LINE 8 MFC"
+        },
+		{
+          "nodeId": "8.5",
+          "nodeName": "LINE 8 PIN"
+        },
+    {
+          "nodeId": "8.6",
+          "nodeName": "LINE 8 UBF"
+        },
+        {
+          "nodeId": "8.7",
+          "nodeName": "LINE 8 ATN-V2/V1"
+        },    
+        {
+          "nodeId": "8.8",
+          "nodeName": "LINE 8 BGL"
+        }           
+      ]
+      },
+	  {
+      "groupName": "LINE 9",
+      "nodes": [
+        {
+          "nodeId": "9.1",
+          "nodeName": "LINE 9 FRONT"
+        },
+		{
+          "nodeId": "9.2",
+          "nodeName": "LINE 9 DECO"
+        },
+        {
+          "nodeId": "9.3",
+          "nodeName": "LINE 9 UBS"
+        },
+        {
+          "nodeId": "9.4",
+          "nodeName": "LINE 9 MFC"
+        },
+		{
+          "nodeId": "9.5",
+          "nodeName": "LINE 9 PIN"
+        },
+    {
+          "nodeId": "9.6",
+          "nodeName": "LINE 9 UBF"
+        },
+        {
+          "nodeId": "9.7",
+          "nodeName": "LINE 9 ATN-V2/V1"
+        },    
+        {
+          "nodeId": "9.8",
+          "nodeName": "LINE 9 BGL"
+        }           
+      ]
+      },
+	  {
+      "groupName": "LINE 10",
+      "nodes": [
+        {
+          "nodeId": "10.1",
+          "nodeName": "LINE 10 FRONT"
+        },
+		{
+          "nodeId": "10.2",
+          "nodeName": "LINE 10 DECO"
+        },
+        {
+          "nodeId": "10.3",
+          "nodeName": "LINE 10 UBS"
+        },
+        {
+          "nodeId": "10.4",
+          "nodeName": "LINE 10 MFC"
+        },
+		{
+          "nodeId": "10.5",
+          "nodeName": "LINE 10 PIN"
+        },
+    {
+          "nodeId": "10.6",
+          "nodeName": "LINE 10 UBF"
+        },
+        {
+          "nodeId": "10.7",
+          "nodeName": "LINE 10 ATN-V2/V1"
+        },    
+        {
+          "nodeId": "10.8",
+          "nodeName": "LINE 10 BGL"
+        }           
+      ]
+      },
+	  {
+      "groupName": "LINE 11",
+      "nodes": [
+        {
+          "nodeId": "11.1",
+          "nodeName": "LINE 11 FRONT"
+        },
+		{
+          "nodeId": "11.2",
+          "nodeName": "LINE 11 DECO"
+        },
+        {
+          "nodeId": "11.3",
+          "nodeName": "LINE 11 UBS"
+        },
+        {
+          "nodeId": "11.4",
+          "nodeName": "LINE 11 MFC"
+        },
+		{
+          "nodeId": "11.5",
+          "nodeName": "LINE 11 PIN"
+        },
+    {
+          "nodeId": "11.6",
+          "nodeName": "LINE 11 UBF"
+        },
+        {
+          "nodeId": "11.7",
+          "nodeName": "LINE 11 ATN-V2/V1"
+        },    
+        {
+          "nodeId": "11.8",
+          "nodeName": "LINE 11 BGL"
+        }           
+      ]
+      },
+	  {
+      "groupName": "LINE 12",
+      "nodes": [
+        {
+          "nodeId": "12.1",
+          "nodeName": "LINE 12 FRONT"
+        },
+		{
+          "nodeId": "12.2",
+          "nodeName": "LINE 12 DECO"
+        },
+        {
+          "nodeId": "12.3",
+          "nodeName": "LINE 12 UBS"
+        },
+        {
+          "nodeId": "12.4",
+          "nodeName": "LINE 12 MFC"
+        },
+		{
+          "nodeId": "12.5",
+          "nodeName": "LINE 12 PIN"
+        },
+    {
+          "nodeId": "12.6",
+          "nodeName": "LINE 12 UBF"
+        },
+        {
+          "nodeId": "12.7",
+          "nodeName": "LINE 12 ATN-V2/V1"
+        },    
+        {
+          "nodeId": "12.8",
+          "nodeName": "LINE 12 BGL"
+        }           
+      ]
+      },
+	  {
+      "groupName": "LINE 13",
+      "nodes": [
+        {
+          "nodeId": "13.1",
+          "nodeName": "LINE 13 FRONT"
+        },
+		{
+          "nodeId": "13.2",
+          "nodeName": "LINE 13 DECO"
+        },
+        {
+          "nodeId": "13.3",
+          "nodeName": "LINE 13 UBS"
+        },
+        {
+          "nodeId": "13.4",
+          "nodeName": "LINE 13 MFC"
+        },
+		{
+          "nodeId": "13.5",
+          "nodeName": "LINE 13 PIN"
+        },
+    {
+          "nodeId": "13.6",
+          "nodeName": "LINE 13 UBF"
+        },
+        {
+          "nodeId": "13.7",
+          "nodeName": "LINE 13 ATN-V2/V1"
+        },    
+        {
+          "nodeId": "13.8",
+          "nodeName": "LINE 13 BGL"
+        }           
+      ]
+      },
+	  {
+      "groupName": "LINE 14",
+      "nodes": [
+        {
+          "nodeId": "14.1",
+          "nodeName": "LINE 14 FRONT"
+        },
+		{
+          "nodeId": "14.2",
+          "nodeName": "LINE 14 DECO"
+        },
+        {
+          "nodeId": "14.3",
+          "nodeName": "LINE 14 UBS"
+        },
+        {
+          "nodeId": "14.4",
+          "nodeName": "LINE 14 MFC"
+        },
+		{
+          "nodeId": "14.5",
+          "nodeName": "LINE 14 PIN"
+        },
+    {
+          "nodeId": "14.6",
+          "nodeName": "LINE 14 UBF"
+        },
+        {
+          "nodeId": "14.7",
+          "nodeName": "LINE 14 ATN-V2/V1"
+        },    
+        {
+          "nodeId": "14.8",
+          "nodeName": "LINE 14 BGL"
+        }           
+      ]
+      },
+	  {
+      "groupName": "LINE 15",
+      "nodes": [
+        {
+          "nodeId": "15.1",
+          "nodeName": "LINE 15 FRONT"
+        },
+		{
+          "nodeId": "15.2",
+          "nodeName": "LINE 15 DECO"
+        },
+        {
+          "nodeId": "15.3",
+          "nodeName": "LINE 15 UBS"
+        },
+        {
+          "nodeId": "15.4",
+          "nodeName": "LINE 15 MFC"
+        },
+		{
+          "nodeId": "15.5",
+          "nodeName": "LINE 15 PIN"
+        },
+    {
+          "nodeId": "15.6",
+          "nodeName": "LINE 15 UBF"
+        },
+        {
+          "nodeId": "15.7",
+          "nodeName": "LINE 15 ATN-V2/V1"
+        },    
+        {
+          "nodeId": "15.8",
+          "nodeName": "LINE 15 BGL"
+        }           
+      ]
+      },
+	  {
+      "groupName": "LINE 16",
+      "nodes": [
+        {
+          "nodeId": "16.1",
+          "nodeName": "LINE 16 FRONT"
+        },
+		{
+          "nodeId": "16.2",
+          "nodeName": "LINE 16 DECO"
+        },
+        {
+          "nodeId": "16.3",
+          "nodeName": "LINE 16 UBS"
+        },
+        {
+          "nodeId": "16.4",
+          "nodeName": "LINE 16 MFC"
+        },
+		{
+          "nodeId": "16.5",
+          "nodeName": "LINE 16 PIN"
+        },
+    {
+          "nodeId": "16.6",
+          "nodeName": "LINE 16 UBF"
+        },
+        {
+          "nodeId": "16.7",
+          "nodeName": "LINE 16 ATN-V2/V1"
+        },
+        {
+          "nodeId": "16.8",
+          "nodeName": "LINE 16 BGL"
+        }          
+      ]
+      },
+	  {
+      "groupName": "LINE 17",
+      "nodes": [
+        {
+          "nodeId": "17.1",
+          "nodeName": "LINE 17 FRONT"
+        },
+		{
+          "nodeId": "17.2",
+          "nodeName": "LINE 17 DECO"
+        },
+        {
+          "nodeId": "17.3",
+          "nodeName": "LINE 17 UBS"
+        },
+        {
+          "nodeId": "17.4",
+          "nodeName": "LINE 17 MFC"
+        },
+		{
+          "nodeId": "17.5",
+          "nodeName": "LINE 17 PIN"
+        },
+    {
+          "nodeId": "17.6",
+          "nodeName": "LINE 17 UBF"
+        },
+        {
+          "nodeId": "17.7",
+          "nodeName": "LINE 17 ATN-V2/V1"
+        },
+        {
+          "nodeId": "17.8",
+          "nodeName": "LINE BGL"
+        }            
+      ]
+      },
+	  {
+      "groupName": "LINE 18",
+      "nodes": [
+        {
+          "nodeId": "18.1",
+          "nodeName": "LINE 18 FRONT"
+        },
+		{
+          "nodeId": "18.2",
+          "nodeName": "LINE 18 DECO"
+        },
+        {
+          "nodeId": "18.3",
+          "nodeName": "LINE 18 UBS"
+        },
+        {
+          "nodeId": "18.4",
+          "nodeName": "LINE 18 MFC"
+        },
+		{
+          "nodeId": "18.5",
+          "nodeName": "LINE 18 PIN"
+        },
+    {
+          "nodeId": "18.6",
+          "nodeName": "LINE 18 UBF"
+        },
+        {
+          "nodeId": "18.7",
+          "nodeName": "LINE 18 ATN-V2/V1"
+        },
+        {
+          "nodeId": "18.8",
+          "nodeName": "LINE 18 BGL"
+        }           
+      ]
+      },
+	  {
+      "groupName": "LINE 19",
+      "nodes": [
+        {
+          "nodeId": "19.1",
+          "nodeName": "LINE 19 FRONT"
+        },
+		{
+          "nodeId": "19.2",
+          "nodeName": "LINE 19 DECO"
+        },
+        {
+          "nodeId": "19.3",
+          "nodeName": "LINE 19 UBS"
+        },
+        {
+          "nodeId": "19.4",
+          "nodeName": "LINE 19 MFC"
+        },
+		{
+          "nodeId": "19.5",
+          "nodeName": "LINE 19 PIN"
+        },
+    {
+          "nodeId": "19.6",
+          "nodeName": "LINE 19 UBF"
+        },
+        {
+          "nodeId": "19.7",
+          "nodeName": "LINE 19 ATN-V2/V1"
+        },
+        {
+          "nodeId": "19.8",
+          "nodeName": "LINE 19 BGL"
+        }           
+      ]
+      },
+	  {
+      "groupName": "LINE 20",
+      "nodes": [
+        {
+          "nodeId": "20.1",
+          "nodeName": "LINE 20 FRONT"
+        },
+		{
+          "nodeId": "20.2",
+          "nodeName": "LINE 20 DECO"
+        },
+        {
+          "nodeId": "20.3",
+          "nodeName": "LINE 20 UBS"
+        },
+        {
+          "nodeId": "20.4",
+          "nodeName": "LINE 20 MFC"
+        },
+		{
+          "nodeId": "20.5",
+          "nodeName": "LINE 20 PIN"
+        },
+    {
+          "nodeId": "20.6",
+          "nodeName": "LINE 20 UBF"
+        },
+        {
+          "nodeId": "20.7",
+          "nodeName": "LINE 20 ATN-V2/V1"
+        },
+        {
+          "nodeId": "20.8",
+          "nodeName": "LINE 20 BGL"
+        }           
+      ]
+      },
+	  {
+      "groupName": "LINE 21",
+      "nodes": [
+        {
+          "nodeId": "21.1",
+          "nodeName": "LINE 21 FRONT"
+        },
+        {
+          "nodeId": "21.2",
+          "nodeName": "LINE 21 DECO"
+        },
+		{
+          "nodeId": "21.3",
+          "nodeName": "LINE 21 UBS"
+        },
+        {
+          "nodeId": "21.4",	
+          "nodeName": "LINE 21 MFC"
+        },
+		{
+          "nodeId": "21.5",
+          "nodeName": "LINE 21 PIN"
+        },
+    {
+          "nodeId": "21.6",
+          "nodeName": "LINE 21 UBF"
+        },
+		{
+          "nodeId": "21.7",
+          "nodeName": "LINE 21 ATN-V2/V1"
+        },
+        {
+          "nodeId": "21.8",
+          "nodeName": "LINE 21 BGL"
+        }         
+      ]
+      },
+	  {
+      "groupName": "LINE 22",
+      "nodes": [
+        {
+          "nodeId": "22.1",
+          "nodeName": "LINE 22 FRONT"
+        },
+		{
+          "nodeId": "22.2",
+          "nodeName": "LINE 22 DECO"
+        },
+        {
+          "nodeId": "22.3",
+          "nodeName": "LINE 22 UBS"
+        },
+        {
+          "nodeId": "22.4",
+          "nodeName": "LINE 22 MFC"
+        },
+		{
+          "nodeId": "22.5",
+          "nodeName": "LINE 22 PIN"
+        },
+    {
+          "nodeId": "22.6",
+          "nodeName": "LINE 22 UBF"
+        },
+        {
+          "nodeId": "22.7",
+          "nodeName": "LINE 22 ATN-V2/V1"
+        }
+,
+        {
+          "nodeId": "22.8",
+          "nodeName": "LINE 22 BGL"
+        } 		
+      ]
+      },
+      {
+        "groupName": "LINE 23",
+        "nodes": [
+          {
+            "nodeId": "23.1",
+            "nodeName": "LINE 23 FRONT"
+          },
+          {
+            "nodeId": "23.2",
+            "nodeName": "LINE 23 DECO"
+          },
+		  {
+          "nodeId": "23.3",
+          "nodeName": "LINE 23 UBS"
+        },
+          {
+            "nodeId": "23.4",
+            "nodeName": "LINE 23 MFC"
+          },
+		  {
+            "nodeId": "23.5",
+            "nodeName": "LINE 23 PIN"
+          },
+      {
+            "nodeId": "23.6",
+            "nodeName": "LINE 23 CAM"
+          },
+          {
+            "nodeId": "23.7",
+            "nodeName": "LINE 23 SPK"
+          },
+          {
+            "nodeId": "23.8",
+            "nodeName": "LINE 23 UBF"
+          },
+		  {
+            "nodeId": "23.9",
+            "nodeName": "LINE 23 ATN-V2/V1"
+          },
+          {
+            "nodeId": "23.10",
+            "nodeName": "LINE 23 BGL"
+          }             
+        ]
+        },
+        {
+          "groupName": "LINE 24",
+          "nodes": [
+            {
+              "nodeId": "24.1",
+              "nodeName": "LINE 24 FRONT"
+            },
+            {
+              "nodeId": "24.2",
+              "nodeName": "LINE 24 DECO"
+            },
+			{
+          "nodeId": "24.3",
+          "nodeName": "LINE 24 DECO"
+        },
+            {
+              "nodeId": "24.4",
+              "nodeName": "LINE 24 MFC"
+            },
+			{
+              "nodeId": "24.5",
+              "nodeName": "LINE 24 PIN"
+            },
+        {
+              "nodeId": "24.6",
+              "nodeName": "LINE 24 CAM"
+            },
+            {
+              "nodeId": "24.7",
+              "nodeName": "LINE 24 SPK"
+            },
+            {
+              "nodeId": "24.8",
+              "nodeName": "LINE 24 UBF"
+            },
+			{
+              "nodeId": "24.9",
+              "nodeName": "LINE 24 ATN-V2/V1"
+            },
+            {
+              "nodeId": "24.10",
+              "nodeName": "LINE 24 BGL"
+            }         
+          ]
+          },
+          {
+            "groupName": "LINE 25",
+            "nodes": [
+              {
+                "nodeId": "25.1",
+                "nodeName": "LINE 25 FRONT"
+              },
+			  {
+          "nodeId": "25.2",
+          "nodeName": "LINE 25 DECO"
+        },
+              {
+                "nodeId": "25.3",
+                "nodeName": "LINE 25 UBS"
+              },
+              {
+                "nodeId": "25.4",
+                "nodeName": "LINE 25 VINYL"
+              },
+			  {
+                "nodeId": "25.5",
+                "nodeName": "LINE 25 MFC"
+              },
+          {
+                "nodeId": "25.6",
+                "nodeName": "LINE 25 PIN"
+              },
+              {
+                "nodeId": "25.7",
+                "nodeName": "LINE 25 CAP"
+              }, 
+ {
+                "nodeId": "25.8",
+                "nodeName": "LINE 25 CAM"
+              },  
+ {
+                "nodeId": "25.9",
+                "nodeName": "LINE 25 SPK"
+              },  
+ {
+                "nodeId": "25.10",
+                "nodeName": "LINE 25 UBF"
+              },  
+ {
+                "nodeId": "25.11",
+                "nodeName": "LINE 25 ATN-V2/V1"
+              },  
+ {
+                "nodeId": "25.12",
+                "nodeName": "LINE 25 BGL"
+              }			  
+            ]
+            },
+            {
+            "groupName": "LINE 26",
+            "nodes": [
+              {
+                "nodeId": "26.1",
+                "nodeName": "LINE 26 FRONT"
+              },
+			  {
+          "nodeId": "26.2",
+          "nodeName": "LINE 26 DECO"
+        },
+              {
+                "nodeId": "26.3",
+                "nodeName": "LINE 26 UBS"
+              },
+              {
+                "nodeId": "26.4",
+                "nodeName": "LINE 26 VINYL"
+              },
+			   {
+                "nodeId": "26.5",
+                "nodeName": "LINE 26 MFC"
+              },
+          {
+                "nodeId": "26.6",
+                "nodeName": "LINE 26 PIN"
+              },
+              {
+                "nodeId": "26.7",
+                "nodeName": "LINE 26 CAP"
+              }, 
+ {
+                "nodeId": "26.8",
+                "nodeName": "LINE 26 CAM"
+              },  
+ {
+                "nodeId": "26.9",
+                "nodeName": "LINE 26 SPK"
+              },  
+ {
+                "nodeId": "26.10",
+                "nodeName": "LINE 26 UBF"
+              },  
+ {
+                "nodeId": "26.11",
+                "nodeName": "LINE 26 ATN-V2/V1"
+              },  
+ {
+                "nodeId": "26.12",
+                "nodeName": "LINE 26 BGL"
+              }				  
+            ]
+            },
+			{
+            "groupName": "LINE 27",
+            "nodes": [
+              {
+                "nodeId": "27.1",
+                "nodeName": "LINE 27 FRONT"
+              },
+			  {
+          "nodeId": "27.2",
+          "nodeName": "LINE 27 DECO"
+        },
+              {
+                "nodeId": "27.3",
+                "nodeName": "LINE 27 UBS"
+              },
+              {
+                "nodeId": "27.4",
+                "nodeName": "LINE 27 VINYL"
+              },
+			  {
+                "nodeId": "27.5",
+                "nodeName": "LINE 27 MFC"
+              },
+          {
+                "nodeId": "27.6",
+                "nodeName": "LINE 27 PIN"
+              },
+              {
+                "nodeId": "27.7",
+                "nodeName": "LINE 27 CAP"
+              }, 
+ {
+                "nodeId": "27.8",
+                "nodeName": "LINE 27 CAM"
+              },  
+ {
+                "nodeId": "27.9",
+                "nodeName": "LINE 27 SPK"
+              },  
+ {
+                "nodeId": "27.10",
+                "nodeName": "LINE 27 UBF"
+              },  
+ {
+                "nodeId": "27.11",
+                "nodeName": "LINE 27 ATN-V2/V1"
+              },  
+ {
+                "nodeId": "27.12",
+                "nodeName": "LINE 27 BGL"
+              }				  
+            ]
+            },
+			{
+            "groupName": "LINE 28",
+            "nodes": [
+              {
+                "nodeId": "28.1",
+                "nodeName": "LINE 28 FRONT"
+              },
+			  {
+          "nodeId": "28.2",
+          "nodeName": "LINE 28 DECO"
+        },
+              {
+                "nodeId": "28.3",
+                "nodeName": "LINE 28 UBS"
+              },
+              {
+                "nodeId": "28.4",
+                "nodeName": "LINE 28 VINYL"
+              },
+			  {
+                "nodeId": "28.5",
+                "nodeName": "LINE 28 MFC"
+              },
+          {
+                "nodeId": "28.6",
+                "nodeName": "LINE 28 PIN"
+              },
+              {
+                "nodeId": "28.7",
+                "nodeName": "LINE 28 CAP"
+              }, 
+ {
+                "nodeId": "28.8",
+                "nodeName": "LINE 28 CAM"
+              },  
+ {
+                "nodeId": "28.9",
+                "nodeName": "LINE 28 SPK"
+              },  
+ {
+                "nodeId": "28.10",
+                "nodeName": "LINE 28 UBF"
+              },  
+ {
+                "nodeId": "28.11",
+                "nodeName": "LINE 28 ATN-V2/V1"
+              },  
+ {
+                "nodeId": "28.12",
+                "nodeName": "LINE 28 BGL"
+              }				  
+            ]
+            },
+			{
+            "groupName": "LINE 29",
+            "nodes": [
+              {
+                "nodeId": "29.1",
+                "nodeName": "LINE 29 FRONT"
+              },
+			  {
+          "nodeId": "29.2",
+          "nodeName": "LINE 29 DECO"
+        },
+              {
+                "nodeId": "29.3",
+                "nodeName": "LINE 29 UBS"
+              },
+              {
+                "nodeId": "29.4",
+                "nodeName": "LINE 29 VINYL"
+              },
+			  {
+                "nodeId": "29.5",
+                "nodeName": "LINE 29 MFC"
+              },
+          {
+                "nodeId": "29.6",
+                "nodeName": "LINE 29 PIN"
+              },
+              {
+                "nodeId": "29.7",
+                "nodeName": "LINE 29 CAP"
+              }, 
+ {
+                "nodeId": "29.8",
+                "nodeName": "LINE 29 CAM"
+              },  
+ {
+                "nodeId": "29.9",
+                "nodeName": "LINE 29 SPK"
+              },  
+ {
+                "nodeId": "29.10",
+                "nodeName": "LINE 29 UBF"
+              },  
+ {
+                "nodeId": "29.11",
+                "nodeName": "LINE 29 ATN-V2/V1"
+              },  
+ {
+                "nodeId": "29.12",
+                "nodeName": "LINE 29 BGL"
+              }				  
+            ]
+            },
+			{
+            "groupName": "LINE 30",
+            "nodes": [
+              {
+                "nodeId": "30.1",
+                "nodeName": "LINE 30 FRONT"
+              },
+			   {
+                "nodeId": "30.2",
+                "nodeName": "LINE 30 DECO"
+              },
+              {
+                "nodeId": "30.3",
+                "nodeName": "LINE 30 UBS"
+              },
+              {
+                "nodeId": "30.4",
+                "nodeName": "LINE 30 VINYL"
+              },
+			  {
+                "nodeId": "30.5",
+                "nodeName": "LINE 30 MFC"
+              },
+          {
+                "nodeId": "30.6",
+                "nodeName": "LINE 30 PIN"
+              },
+              {
+                "nodeId": "30.7",
+                "nodeName": "LINE 30 CAP"
+              }, 
+ {
+                "nodeId": "30.8",
+                "nodeName": "LINE 30 CAM"
+              },  
+ {
+                "nodeId": "30.9",
+                "nodeName": "LINE 30 SPK"
+              },  
+ {
+                "nodeId": "30.10",
+                "nodeName": "LINE 30 UBF"
+              },  
+ {
+                "nodeId": "30.11",
+                "nodeName": "LINE 30 ATN-V2/V1"
+              },  
+ {
+                "nodeId": "30.12",
+                "nodeName": "LINE 30 BGL"
+              }				  
+            ]
+            }
+	 ]
+  },
+  "locatePositionConfig":{
+    "positions": [
+      {
+        "name": "Locate G.10",
+		"nodeId": "G.10",
+        "x": 54.41,
+        "y": 78.95,
+        "ori": 180
+      },
+	  {
+        "name": "Locate G.11",
+		"nodeId": "G.11",
+        "x": 98.96,
+        "y": 78.86,
+        "ori": 180
+      },
+      {
+        "name": "Locate G.14",
+		"nodeId":"G.14",
+        "x": 166.33,
+        "y": 78.94,
+        "ori": 180
+      },
+	  {
+        "name": "Locate G.16b",
+		"nodeId":"G.16b",
+        "x": 181.12,
+        "y": 80.14,
+        "ori": 180
+      },
+      {
+        "name": "Locate 3.O",
+		"nodeId":"3.O",
+        "x": 184.47,
+        "y": 39.83,
+        "ori": 180
+      },
+	  {
+        "name": "Locate 6.O",
+		"nodeId":"6.O",
+        "x": 184.38,
+        "y": 58.37,
+        "ori": 180
+      },
+	  {
+        "name": "Locate 10.O",
+		"nodeId":"10.O",
+        "x": 184.42,
+        "y": 97.41,
+        "ori": 180
+      },
+	  {
+        "name": "Locate 13.O",
+		"nodeId":"13.O",
+        "x": 184.59,
+        "y": 117.19,
+        "ori": 180
+      },
+	  {
+        "name": "Locate 18.O",
+		"nodeId":"18.O",
+        "x": 104.31,
+        "y": 39.81,
+        "ori": 180
+      },
+	  {
+        "name": "Locate 21.O",
+		"nodeId":"21.O",
+        "x": 104.32,
+        "y": 58.96,
+        "ori": 180
+      },
+	  {
+        "name": "Locate 24.O",
+		"nodeId":"3.O",
+        "x": 104.44,
+        "y": 96.75,
+        "ori": 180
+      },
+	  {
+        "name": "Locate 27.O",
+		"nodeId":"3.O",
+        "x": 104.45,
+        "y": 117.14,
+        "ori": 180
+      }
+    ]
+  },
+
+    "robotConfig":{
+	  "lowBatteryLevel":  20,
+	  "highBatteryLevel":	80
+	  },
+	"soundConfig":{
+	"lidarSoundVolume":	"0.7",
+	"movingSoundVolme":	"0.8",
+	"unloadingSoundVolume": "1.0",
+	"emcSoundVolume": "1.0"
+	},
+  "mapPoints": [
+{	"nodeId":	"C0.1",		"x":	146.64	,	"y":	68.84	,	"ori":	180	,	"nextPoints": "C2.1"	,	"trafficZoneId": null,	"standardMovingZone": "free"},
+{	"nodeId":	"C0.2",		"x":	146.67	,	"y":	70.03	,	"ori":	180	,	"nextPoints": "C2.2"	,	"trafficZoneId": null,	"standardMovingZone": "free"},
+{	"nodeId":	"C1.1",		"x":	146.7	,	"y":	68.83	,	"ori":	null	,	"nextPoints": "C2.1"	,	"trafficZoneId": null,	"standardMovingZone": "free"},
+{	"nodeId":	"C1.2",		"x":	146.79	,	"y":	70.03	,	"ori":	null	,	"nextPoints": "C2.2"	,	"trafficZoneId": null,	"standardMovingZone": "free"},
+{	"nodeId":	"C2.1",		"x":	147.79	,	"y":	68.77	,	"ori":	null	,	"nextPoints": "G.1"	,	"trafficZoneId": null,	"standardMovingZone": "free"},
+{	"nodeId":	"C2.2",		"x":	147.79	,	"y":	70.03	,	"ori":	null	,	"nextPoints": "G.1"	,	"trafficZoneId": null,	"standardMovingZone": "free"},
+
+{	"nodeId":	"G.1",		"x":	148.10	,	"y":	81.86	,	"ori":	null	,	"nextPoints": "R.1,R.2"	,	"trafficZoneId": null,	"standardMovingZone": "free"},
+{	"nodeId":	"R.1",		"x":	149.00	,	"y":	82.13	,	"ori":	180	,	"nextPoints": "G.3,G.1"	,	"trafficZoneId": null,	"standardMovingZone": "free"},
+{	"nodeId":	"R.2",		"x":	147.74	,	"y":	93.83	,	"ori":	180	,	"nextPoints": "R.209,R.PL,RT,G.R"	,	"trafficZoneId": null,	"standardMovingZone": "free"},
+{	"nodeId":	"G.R",		"x":	148.53	,	"y":	116.22	,	"ori":	null	,	"nextPoints": "G.2"	,	"trafficZoneId": null,	"standardMovingZone": "free"},
+{	"nodeId":	"R.209",		"x":	148.51	,	"y":	104.29	,	"ori":	0	,	"nextPoints": "R.PL,RT,G.R"	,	"trafficZoneId": null,	"standardMovingZone": "free"},
+{	"nodeId":	"R.PL",		"x":	148.53	,	"y":	107.71	,	"ori":	0	,	"nextPoints": "RT,G.R"	,	"trafficZoneId": null,	"standardMovingZone": "free"},
+{	"nodeId":	"RT",		"x":	148.96	,	"y":	114.46	,	"ori":	-90	,	"nextPoints": "G.2"	,	"trafficZoneId": null,	"standardMovingZone": "free"},
+{	"nodeId":	"G.2",		"x":	158.59	,	"y":	116.22	,	"ori":	null	,	"nextPoints": "RT,R.109,R.107,G.3,G.18"	,	"trafficZoneId": null,	"standardMovingZone": "free"},
+{	"nodeId":	"R.109",		"x":	158.54	,	"y":	107.26	,	"ori":	90	,	"nextPoints": "R.107,G.3"	,	"trafficZoneId": null,	"standardMovingZone": "free"},
+{	"nodeId":	"R.107",		"x":	158.56	,	"y":	145.00	,	"ori":	90	,	"nextPoints": "G.3"	,	"trafficZoneId": null,	"standardMovingZone": "free"},
+{	"nodeId":	"G.3",		"x":	158.60	,	"y":	83.07	,	"ori":	null,	"nextPoints": "R.101,R.102,R.1,G.1,G.4"	,	"trafficZoneId": null,	"standardMovingZone": "free"},
+{	"nodeId":	"R.101",		"x":	158.72	,	"y":	71.87	,	"ori":	-90	,	"nextPoints": "R.102,G.3"	,	"trafficZoneId": null,	"standardMovingZone": "free"},
+{	"nodeId":	"R.102",		"x":	158.73	,	"y":	78.38	,	"ori":	-90	,	"nextPoints": "R.101,G.3"	,	"trafficZoneId": null,	"standardMovingZone": "free"},
+
+
+{	"nodeId":	"G.4",		"x":	159.83	,	"y":	83.07	,	"ori":	null	,	"nextPoints": "G.3,G.5"	,	"trafficZoneId": null,	"standardMovingZone": null},
+{	"nodeId":	"G.5",		"x":	159.89	,	"y":	66.22	,	"ori":	null	,	"nextPoints": "G.6"	,	"trafficZoneId": null,	"standardMovingZone": null},
+{	"nodeId":	"G.6",		"x":	156.86	,	"y":	65.08	,	"ori":	null	,	"nextPoints": "G.7"	,	"trafficZoneId": "999",	"standardMovingZone": null},
+{	"nodeId":	"G.7",		"x":	156.87	,	"y":	59.96	,	"ori":	null	,	"nextPoints": "G.8,G.10"	,	"trafficZoneId": "999",	"standardMovingZone": null},
+
+
+{	"nodeId":	"G.8",		"x":	156.82	,	"y":	52.8	,	"ori":	null	,	"nextPoints": "G.9,G.10"	,	"trafficZoneId": null,	"standardMovingZone": null},
+{	"nodeId":	"G.8a",		"x":	156.82	,	"y":	52.8	,	"ori":	null	,	"nextPoints": "G.10"	,	"trafficZoneId": null,	"standardMovingZone": "free"},
+{	"nodeId":	"G.9",		"x":	148.42	,	"y":	52.82	,	"ori":	null	,	"nextPoints": "W.1,W.2,G.8a"	,	"trafficZoneId": null,	"standardMovingZone": "free"},
+{	"nodeId":	"W.1",		"x":	148.12	,	"y":	53.98	,	"ori":	90	,	"nextPoints": "G.9"	,	"trafficZoneId": null,	"standardMovingZone": "free"},
+{	"nodeId":	"W.2",		"x":	148.11	,	"y":	49.5	,	"ori":	90	,	"nextPoints": "G.9"	,	"trafficZoneId": null,	"standardMovingZone": "free"},
+
+
+{	"nodeId":	"G.10",		"x":	156.69	,	"y":	33.94	,	"ori":	null	,	"nextPoints": "G.11"	,	"trafficZoneId": "048",	"standardMovingZone": null},
+{	"nodeId":	"G.11",		"x":	156.70	,	"y":	31.84	,	"ori":	null	,	"nextPoints": "G.12"	,	"trafficZoneId": "048",	"standardMovingZone": null},
+{	"nodeId":	"G.12",		"x":	144.90	,	"y":	31.92 ,	"ori":	null	,	"nextPoints": "G.13"	,	"trafficZoneId": null,	"standardMovingZone": null},
+{	"nodeId":	"G.13",		"x":	145.01	,	"y":	56.60	,	"ori":	null	,	"nextPoints": "G.14"	,	"trafficZoneId": "998",	"standardMovingZone": null},
+{	"nodeId":	"G.14",		"x":	145.02	,	"y":	61.30	,	"ori":	null	,	"nextPoints": "G.15"	,	"trafficZoneId": "998",	"standardMovingZone": null},
+{	"nodeId":	"G.15",		"x":	144.86	,	"y":	117.80	,	"ori":	null	,	"nextPoints": "G.16"	,	"trafficZoneId": "997",	"standardMovingZone": null},
+{	"nodeId":	"G.16",		"x":	144.84	,	"y":	118.97	,	"ori":	null	,	"nextPoints": "G.17"	,	"trafficZoneId": "997",	"standardMovingZone": null},
+{	"nodeId":	"G.17",		"x":	159.75	,	"y":	119.07	,	"ori":	null	,	"nextPoints": "G.18"	,	"trafficZoneId": null,	"standardMovingZone": null},
+{	"nodeId":	"G.18",		"x":	159.77	,	"y":	116.38	,	"ori":	null	,	"nextPoints": "G.2,G.4"	,	"trafficZoneId": null,	"standardMovingZone": null}
+
+
+
+
+
+
+
+
+
+
+
+]																															
+}
